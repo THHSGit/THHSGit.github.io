@@ -8,6 +8,8 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #111;
+    margin-left: -10;
+    margin-top: -10;
 }
 li {
     float: left;
