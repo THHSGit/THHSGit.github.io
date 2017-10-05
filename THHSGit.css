@@ -30,6 +30,7 @@ li a:hover {
     background-color: #000000;
     color: #FFFFFF;
     text-align: center;
+    float: right;
 }
 .imageBox img {
     width: 90%;
