@@ -24,3 +24,9 @@ li a {
 li a:hover {
     background-color: #ffd700;
 }
+.imageBox {
+    width: "10%";
+    background-color: #ffd700;
+    color: black;
+}
+    
