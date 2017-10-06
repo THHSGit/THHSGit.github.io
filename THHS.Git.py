@@ -8,7 +8,6 @@ print ('b)  We will never bring disgrace to our city by any act of dishonesty or
 print ('c)  We will fight for the ideals and sacred things of the city, both alone and with many.')
 print ("d)  We will revere and obey the city's laws, and do our best to incite a like respect and reverence in those about us who are prone to annul them and set them at naught.")
 
-
 q1 = raw_input('What is the last line oath state?')
 
 if q1 == "a":
@@ -30,7 +29,6 @@ if q2 == "b":
 if q2 != 'b':
     print('That is incorrect.  The correct answer is B.')
 
-
 print('a)  October 25, 2007')
 print('b)  June 8, 1980')
 print('c)  November 7, 1885')
@@ -42,11 +40,8 @@ if q1 == "a" and q2 == "b" and q3 == "d":
     print('Incredible!  You are on fire!')
 if q3 == "d":
     print('You got that right.')
-if q2 != 'd':
+if q3 != 'd':
     print('That is incorrect.  The correct answer is D.')
-
-
-
 
 print('a)  Townsend Harris was the Govenor of New York, who served in the U.S. Navy.')
 print('b)  Townsend Harris was a New York merchant and politician, who served as the first United States Consul General to Japan.')
@@ -59,13 +54,22 @@ if q1 == "a" and q2 == "b" and q3 == "d" and q4 == "b":
     print('You That is correct!  You are perfect today!')
 if q4 == "b":
     print('You got that right.')
-if q2 != 'b':
+if q4 != 'b':
     print('That is incorrect.  The correct answer is B')
-    
 
 
-    
-    
+print('Townsend Harris wanted everyone to have the opportunity to have access to free education')
+print('Townsend Harris wanted to be rich')
+print('Townsend harris wanted girls to get an education')
+print('Townsend Harris wanted peace between all the countries of the world.')
 
+q5 = raw_input('What did Townsend Harris want the most?')
 
+if q1 == "a" and q2 == "b" and q3 == "d" and q4 == "b" and q5 == 'a':
+    ('You are correct again!  You got a perfect score on the quiz!')
+if q5 == 'a':
+    print('You got that right.  The quiz is now over.')
+if q5 != 'a':
+    print('That is incorrect.  The quiz is now over.')
 
+print('Thank you for playing our quiz!!!')
