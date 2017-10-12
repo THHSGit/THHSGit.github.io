@@ -2,12 +2,15 @@
 
 print('Welcome to our quiz.  In this quiz you will be tested on what you learned from our website.')
 
-
+print (" ")
 print ('a)  And thus, in all these ways, we will strive to transmit this city not only not less, but greater, better, and more beautiful than it was transmitted to us.')
+print ("  ")
 print ('b)  We will never bring disgrace to our city by any act of dishonesty or cowardice nor ever desert our suffering comrades in the ranks.')
+print("  ")
 print ('c)  We will fight for the ideals and sacred things of the city, both alone and with many.')
+print (" ")
 print ("d)  We will revere and obey the city's laws, and do our best to incite a like respect and reverence in those about us who are prone to annul them and set them at naught.")
-
+print (" ")
 q1 = raw_input('What is the last line oath state?')
 
 if q1 == "a":
