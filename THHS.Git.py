@@ -17,12 +17,15 @@ if q1 == "a":
     print('Good Job!  That is correct.')
 else:
     print('That is incorrect.  The correct answer is A.')
-
+print (" ")
 print ('a)  New York')
+print (" ")
 print ('b)  Athens')
+print (" ")
 print ('c)  Sparta')
+print (" ")
 print ('d)  Paris')
-
+print (" ")
 q2 = raw_input('Where did the Ephebic Oath originate from?')
 
 if q1 == "a" and q2 == "b":
@@ -31,12 +34,16 @@ if q2 == "b":
     print('You got that right.')
 if q2 != 'b':
     print('That is incorrect.  The correct answer is B.')
-
+print (" ")
 print('a)  October 25, 2007')
+print (" ")
+print (" ")
 print('b)  June 8, 1980')
+print (" ")
 print('c)  November 7, 1885')
+print (" ")
 print('d)  October 25, 1984')
-
+print (" ")
 q3 = raw_input('What date did the freshman class of Townsend Harris High School first recite the Ephebic Oath.?')
 
 if q1 == "a" and q2 == "b" and q3 == "d":
@@ -45,12 +52,15 @@ if q3 == "d":
     print('You got that right.')
 if q3 != 'd':
     print('That is incorrect.  The correct answer is D.')
-
+print (" ")
 print('a)  Townsend Harris was the Govenor of New York, who served in the U.S. Navy.')
+print (" ")
 print('b)  Townsend Harris was a New York merchant and politician, who served as the first United States Consul General to Japan.')
+print (" ")
 print('c)  Townsend Harris was a New York politician, who was the mayor of New York from 1856 - 1860.')
+print (" ")
 print('d)  Townsend Harris was a New York business man who owned a huge real estate business.')
-
+print (" ")
 q4 = raw_input('Who was Townsend Harris?')
 
 if q1 == "a" and q2 == "b" and q3 == "d" and q4 == "b":
@@ -60,12 +70,15 @@ if q4 == "b":
 if q4 != 'b':
     print('That is incorrect.  The correct answer is B')
 
-
+print (" ")
 print('Townsend Harris wanted everyone to have the opportunity to have access to free education')
+print (" ")
 print('Townsend Harris wanted to be rich')
+print (" ")
 print('Townsend harris wanted girls to get an education')
+print (" ")
 print('Townsend Harris wanted peace between all the countries of the world.')
-
+print (" ")
 q5 = raw_input('What did Townsend Harris want the most?')
 
 if q1 == "a" and q2 == "b" and q3 == "d" and q4 == "b" and q5 == 'a':
@@ -74,5 +87,5 @@ if q5 == 'a':
     print('You got that right.  The quiz is now over.')
 if q5 != 'a':
     print('That is incorrect.  The quiz is now over.')
-
+print (" ")
 print('Thank you for playing our quiz!!!')
