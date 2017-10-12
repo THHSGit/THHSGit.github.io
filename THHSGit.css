@@ -26,19 +26,19 @@ li a:hover {
     background-color: #ffd700;
 }
 #home {
-    font-size: 50px;
+    font-size: 80px;
     margin-top: -0px;
     text-align: center;
 }
 #p1, #p2, #p3 , #p4 {
-    font-size: 40px;
+    font-size: 55px;
     text-align: center;
 }
 p {
-    font-size: 14px;
+    font-size: 20px;
 }
 .imageBox {
-    width: 80%;
+    width: 30%;
     border: 5px solid #ffd700;
     background-color: #000000;
     color: #FFFFFF;
