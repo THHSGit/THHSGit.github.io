@@ -101,9 +101,9 @@ p {
     }
 #coverTheCode {
     position: absolute;
-    width: 60%;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    height: 336px;
+    margin-left: 5px;
+    margin-bottom: 5px;
     border: 5px solid #ffd700;
     background-color: #000000;
     color: #FFFFFF;
