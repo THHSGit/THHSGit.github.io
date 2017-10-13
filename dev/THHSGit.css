@@ -101,10 +101,10 @@ p {
     }
 #coverTheCode {
     position: absolute;
-    width: 59%;
+    width: 58%;
     height: 312px;
     margin-left: 0px;
-    margin-top: 35px;
+    margin-top: 35px; 
     border: 5px solid #ffd700;
     background-color: #000000;
     color: #FFFFFF;
