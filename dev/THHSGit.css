@@ -71,6 +71,7 @@ p {
         background: rgba(0,0,0,0.5);
         z-index: 1;
         opacity: 0;
+        color: #990000;
         -webkit-transition: opacity 400ms ease-in;
         -moz-transition: opacity 400ms ease-in;
         transition: opacity 400ms ease-in;
