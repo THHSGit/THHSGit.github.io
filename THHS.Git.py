@@ -71,13 +71,13 @@ if q4 != 'b':
     print('That is incorrect.  The correct answer is B')
 
 print (" ")
-print('Townsend Harris wanted everyone to have the opportunity to have access to free education')
+print('a) Townsend Harris wanted everyone to have the opportunity to have access to free education')
 print (" ")
-print('Townsend Harris wanted to be rich')
+print('b) Townsend Harris wanted to be rich')
 print (" ")
-print('Townsend harris wanted girls to get an education')
+print('c) Townsend harris wanted girls to get an education')
 print (" ")
-print('Townsend Harris wanted peace between all the countries of the world.')
+print('d) Townsend Harris wanted peace between all the countries of the world.')
 print (" ")
 q5 = raw_input('What did Townsend Harris want the most?')
 
