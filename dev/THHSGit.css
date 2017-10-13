@@ -103,8 +103,8 @@ p {
     position: absolute;
     width: 60%;
     height: 306px;
-    margin-left: 5px;
-    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-bottom: -50px;
     border: 5px solid #ffd700;
     background-color: #000000;
     color: #FFFFFF;
