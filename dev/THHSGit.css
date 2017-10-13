@@ -25,6 +25,16 @@ li a {
 li a:hover {
     background-color: #ffd700;
 }
+li button {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li button:hover {
+    background-color: #ffd700;
+}
 #home {
     font-size: 80px;
     margin-top: -0px;
