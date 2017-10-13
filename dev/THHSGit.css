@@ -99,3 +99,16 @@ p {
     .close:hover {
     	background: #00d9ff;
     }
+#coverTheCode {
+    position: absolute;
+    width: 60%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    border: 5px solid #ffd700;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#coverTheCode img {
+    margin: auto;
+    width: 90%;
+}
