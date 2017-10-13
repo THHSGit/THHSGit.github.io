@@ -5,6 +5,9 @@
   <link href="THHSGit.css" rel="stylesheet" type="text/css">
   <script src="THHSGit.js">
   </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script> 
+<script src="http://www.skulpt.org/static/skulpt.min.js" type="text/javascript"></script> 
+<script src="http://www.skulpt.org/static/skulpt-stdlib.js" type="text/javascript"></script> 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 </head>
 <body>
@@ -69,8 +72,10 @@
     </div>
   </div>
   <p id="p4">Quiz: The Ephebic Oath</p>
-  <div class="imageBox" style="float: right;"><img alt="Image of Townsend Harris High School" src="images/thhs.png"></div><br>
-  <p>To begin the quiz, press "►Run". The answers are first, and the question follows. To submit an answer, type the letter of the answer choice (a, b, c, or d), and press enter on your keyboard. DO NOT EDIT THE CODE</p><iframe allowfullscreen frameborder="0" height="356" marginheight="0" marginwidth="0" src="https://trinket.io/embed/python/32de9c07a1" width="100%"></iframe> <!--<p>Welcome to our quiz. In this quiz you will be tested on what you learned from our website.</p>
+  <p>To begin the quiz, press "►Run". The answers are first, and the question follows. To submit an answer, type the letter of the answer choice (a, b, c, or d), and press enter on your keyboard. DO NOT EDIT THE CODE</p>
+  <div class="imageBox" id="coverTheCode"><img alt="Image of Townsend Harris High School" src="images/thhs.png"></div><br>
+  <iframe allowfullscreen frameborder="0" height="356" marginheight="0" marginwidth="0" src="https://trinket.io/embed/python/32de9c07a1" width="100%"></iframe> 
+  <!--<p>Welcome to our quiz. In this quiz you will be tested on what you learned from our website.</p>
     <p>What is the last line oath state?</p>
     <form id = "q1" action = "fucntion q1();">
         <input type = "radio" name = "q1" id = "q1a">And thus, in all these ways, we will strive to transmit this city not only not less, but greater, better, and more beautiful than it was transmitted to us.<br>
@@ -79,5 +84,218 @@
         <input type = "radio" name = "q1" id = "q1d">We will revere and obey the city's laws, and do our best to incite a like respect and reverence in those about us who are prone to annul them and set them at naught.<br>
         <input type = "submit" name  = "submit" id = "submitq1">
     </form>-->
+  <script type="text/javascript"> 
+function outf(text) { 
+    var mypre = document.getElementById("output"); 
+    mypre.innerHTML = mypre.innerHTML + text; 
+} 
+function builtinRead(x) {
+    if (Sk.builtinFiles === undefined || Sk.builtinFiles["files"][x] === undefined)
+            throw "File not found: '" + x + "'";
+    return Sk.builtinFiles["files"][x];
+}
+function runit() { 
+   var prog = document.getElementById("yourcode").value; 
+   var mypre = document.getElementById("output"); 
+   mypre.innerHTML = ''; 
+   Sk.pre = "output";
+   Sk.configure({output:outf, read:builtinRead}); 
+   (Sk.TurtleGraphics || (Sk.TurtleGraphics = {})).target = 'mycanvas';
+   var myPromise = Sk.misceval.asyncToPromise(function() {
+       return Sk.importMainWithBody("<stdin>", false, prog, true);
+   });
+   myPromise.then(function(mod) {
+       console.log('success');
+   },
+       function(err) {
+       console.log(err.toString());
+   });
+} 
+</script> 
+<h3>Try This</h3> 
+<form> 
+<textarea id="yourcode" cols="40" rows="10">
+  print('Welcome to our quiz.  In this quiz you will be tested on what you learned from our website.')
+
+
+
+print (" ")
+
+print ('a)  And thus, in all these ways, we will strive to transmit this city not only not less, but greater, better, and more beautiful than it was transmitted to us.')
+
+print ("  ")
+
+print ('b)  We will never bring disgrace to our city by any act of dishonesty or cowardice nor ever desert our suffering comrades in the ranks.')
+
+print("  ")
+
+print ('c)  We will fight for the ideals and sacred things of the city, both alone and with many.')
+
+print (" ")
+
+print ("d)  We will revere and obey the city's laws, and do our best to incite a like respect and reverence in those about us who are prone to annul them and set them at naught.")
+
+print (" ")
+
+q1 = raw_input('What is the last line oath state?')
+
+
+
+if q1 == "a":
+
+    print('Good Job!  That is correct.')
+
+else:
+
+    print('That is incorrect.  The correct answer is A.')
+
+print (" ")
+
+print ('a)  New York')
+
+print (" ")
+
+print ('b)  Athens')
+
+print (" ")
+
+print ('c)  Sparta')
+
+print (" ")
+
+print ('d)  Paris')
+
+print (" ")
+
+q2 = raw_input('Where did the Ephebic Oath originate from?')
+
+
+
+if q1 == "a" and q2 == "b":
+
+    print('Amazing!  You are correct once again.')
+
+if q2 == "b":
+
+    print('You got that right.')
+
+if q2 != 'b':
+
+    print('That is incorrect.  The correct answer is B.')
+
+print (" ")
+
+print('a)  October 25, 2007')
+
+print (" ")
+
+print (" ")
+
+print('b)  June 8, 1980')
+
+print (" ")
+
+print('c)  November 7, 1885')
+
+print (" ")
+
+print('d)  October 25, 1984')
+
+print (" ")
+
+q3 = raw_input('What date did the freshman class of Townsend Harris High School first recite the Ephebic Oath.?')
+
+
+
+if q1 == "a" and q2 == "b" and q3 == "d":
+
+    print('Incredible!  You are on fire!')
+
+if q3 == "d":
+
+    print('You got that right.')
+
+if q3 != 'd':
+
+    print('That is incorrect.  The correct answer is D.')
+
+print (" ")
+
+print('a)  Townsend Harris was the Govenor of New York, who served in the U.S. Navy.')
+
+print (" ")
+
+print('b)  Townsend Harris was a New York merchant and politician, who served as the first United States Consul General to Japan.')
+
+print (" ")
+
+print('c)  Townsend Harris was a New York politician, who was the mayor of New York from 1856 - 1860.')
+
+print (" ")
+
+print('d)  Townsend Harris was a New York business man who owned a huge real estate business.')
+
+print (" ")
+
+q4 = raw_input('Who was Townsend Harris?')
+
+
+
+if q1 == "a" and q2 == "b" and q3 == "d" and q4 == "b":
+
+    print('You That is correct!  You are perfect today!')
+
+if q4 == "b":
+
+    print('You got that right.')
+
+if q4 != 'b':
+
+    print('That is incorrect.  The correct answer is B')
+
+
+
+print (" ")
+
+print('a) Townsend Harris wanted everyone to have the opportunity to have access to free education')
+
+print (" ")
+
+print('b) Townsend Harris wanted to be rich')
+
+print (" ")
+
+print('c) Townsend harris wanted girls to get an education')
+
+print (" ")
+
+print('d) Townsend Harris wanted peace between all the countries of the world.')
+
+print (" ")
+
+q5 = raw_input('What did Townsend Harris want the most?')
+
+
+
+if q1 == "a" and q2 == "b" and q3 == "d" and q4 == "b" and q5 == 'a':
+
+    ('You are correct again!  You got a perfect score on the quiz!')
+
+if q5 == 'a':
+
+    print('You got that right.  The quiz is now over.')
+
+if q5 != 'a':
+
+    print('That is incorrect.  The quiz is now over.')
+
+print (" ")
+
+print('Thank you for playing our quiz!!!')
+</textarea><br />
+<button type="button" onclick="runit()">Run</button> 
+</form> 
+<pre id="output" ></pre> 
+<div id="mycanvas"></div> 
 </body>
 </html>
