@@ -101,6 +101,7 @@ p {
     }
 #coverTheCode {
     position: absolute;
+    width: 55%;
     height: 336px;
     margin-left: 5px;
     margin-bottom: 5px;
