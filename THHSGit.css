@@ -129,5 +129,7 @@ p {
   color: #FFFFFF;
 }
 #coverTheCode img {
+  position: fixed;
+  margin: auto;
   height: 90%;
 }
