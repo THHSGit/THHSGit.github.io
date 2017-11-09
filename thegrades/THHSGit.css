@@ -7,3 +7,37 @@ font-family: 'Gruppo';
 font-size: 50px;
 text-align: center;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  margin-left: -10;
+  margin-top: -10;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #ffd700;
+}
+li button {
+  display: block;
+  background-color: #111;
+  border-color: #111;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li button:hover {
+  background-color: #ffd700;
+}
