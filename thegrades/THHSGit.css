@@ -27,7 +27,7 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #ffd700;
+  background-color: #DC143C;
 }
 li button {
   display: block;
@@ -39,7 +39,7 @@ li button {
   text-decoration: none;
 }
 li button:hover {
-  background-color: #ffd700;
+  background-color: #DC143C;
 }
 .sidenavr {
     	height: 100%;
