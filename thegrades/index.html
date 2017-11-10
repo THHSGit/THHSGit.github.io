@@ -7,8 +7,18 @@
 <body>
   <ul>
     <li><a>Home</a></li>
-    <li style = "text-align: right;"><a>About</a></li>
+    <li><a><span onclick = "openNavl()">Synopsis</span></a></li>
+    <li><a><span onclick = "openNavr()">Social Media</span></a></li>
+    <li style = "float: right;"><a>About</a></li>
   </ul>
+  <div id="mySidenavl" class="sidenavl" style = "background-color: #dddddd;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+      <h2>Synopsis</h2>
+    </div>
+    <div id="mySidenavr" class="sidenavr" style = "background-color: #dddddd;">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <h2>Social Media</h2>
+    </div>
   <p id = "titleText">The Grades</p>
 </body>
 </html>
