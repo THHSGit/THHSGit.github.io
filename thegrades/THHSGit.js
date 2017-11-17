@@ -9,5 +9,5 @@ function openNavl() {
 function closeNav() {
     document.getElementById("mySidenavr").style.width = "0";
     document.getElementById("mySidenavl").style.width = "0";
-    document.body.style.backgroundColor = "rgba(0,0,0,0)";
+    document.body.style.backgroundColor = "rgba(0,0,0,1)";
 } 
