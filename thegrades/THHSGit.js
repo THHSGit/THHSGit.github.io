@@ -1,5 +1,6 @@
 function openNavr() {
     document.getElementById("mySidenavr").style.width = "250px";
+    
 }
 function openNavl() {
     document.getElementById("mySidenavl").style.width = "250px";
