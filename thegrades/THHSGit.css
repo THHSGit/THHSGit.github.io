@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #111;
   color: #FFFFFF;
   font-family: 'Gruppo';
   z-index: 0;
@@ -57,8 +57,8 @@ li button:hover {
   z-index: -1;
   top: 0;
   right: -10;
-  background-color: #dddddd;
-  color: #000000;
+  background-color: #000000;
+  color: #CB0101;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 40px;
@@ -89,8 +89,8 @@ li button:hover {
   z-index: -1;
   top: 0;
   left: -10;
-  background-color: #dddddd;
-  color: #000000;
+  background-color: #000000;
+  color: #CB0101;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 40px;
