@@ -130,6 +130,7 @@ li button:hover {
 .modalDialog {
   overflow: scroll;
   position: fixed;
+  text-align: center;
   top: 0;
   right: 0;
   bottom: 0;
@@ -152,13 +153,13 @@ li button:hover {
   position: relative;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
-  background: #CB0101;
-  background: -moz-linear-gradient(#CB0101, #111);
-  background: -webkit-linear-gradient(#CB0101, #111);
-  background: -o-linear-gradient(#CB0101, #111);
+  background: #111;
+  background: -moz-linear-gradient(#111, #111, #CB0101);
+  background: -webkit-linear-gradient(#111, #111, #CB0101);
+  background: -o-linear-gradient(#111, #111, #CB0101);
 }
 .close {
-  color: #606061;
+  color: #CB0101;
   line-height: 25px;
   position: absolute;
   right: 0px;
