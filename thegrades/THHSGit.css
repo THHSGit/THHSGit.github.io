@@ -4,7 +4,7 @@ body {
   font-family: 'Gruppo';
   z-index: 0;
 }
-#titleText {
+.titletext {
   font-size: 50px;
   text-align: center;
 }
