@@ -5,6 +5,8 @@ body {
   z-index: 0;
 }
 .header {
+  position: fixed;
+  top: 0;
 }
 .footer {
     background-color: #111;
