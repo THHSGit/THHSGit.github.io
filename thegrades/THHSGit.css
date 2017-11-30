@@ -10,10 +10,10 @@ body {
 }
 #spacer {
   background-color: #CB0101;
-  width: 100%;
+  width: 110%;
   padding: 10px 10px;
   z-index: 0;
-  left: -10;
+  margin-left: -10;
 }
 ul {
   list-style-type: none;
@@ -58,7 +58,7 @@ li button:hover {
   top: 0;
   right: -10;
   background-color: #dddddd;
-  color: 
+  color: #000000;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 40px;
@@ -90,6 +90,7 @@ li button:hover {
   top: 0;
   left: -10;
   background-color: #dddddd;
+  color: #000000;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 40px;
