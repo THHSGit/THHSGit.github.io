@@ -1,9 +1,9 @@
 function openNavr() {
-    document.getElementById("mySidenavr").style.width = "250px";
+    document.getElementById("mySidenavr").style.width = "350px";
     document.getElementById("mySidenavr").style.zIndex = "1";
 }
 function openNavl() {
-    document.getElementById("mySidenavl").style.width = "250px";
+    document.getElementById("mySidenavl").style.width = "350px";
     document.getElementById("mySidenavl").style.zIndex = "1";
 }
 function closeNav() {
