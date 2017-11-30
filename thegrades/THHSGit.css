@@ -30,7 +30,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #111;
   margin-left: -10;
   margin-top: -10;
   z-index: 1;
@@ -50,8 +50,8 @@ li a:hover {
 }
 li button {
   display: block;
-  background-color: #333;
-  border-color: #333;
+  background-color: #111;
+  border: none;
   color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
