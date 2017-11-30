@@ -7,6 +7,7 @@ body {
 .header {
   position: fixed;
   top: 0;
+  width: 100%
 }
 .footer {
     background-color: #111;
@@ -24,8 +25,8 @@ body {
 }
 #spacer {
   background-color: #CB0101;
-  width: 110%;
-  padding: 10px 10px;
+  width: 100%;
+  padding: 10px 1px;
   z-index: 0;
   margin-left: -10;
 }
@@ -35,7 +36,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #111;
-  width: 101.5%;
+  width: 100%;
   margin-left: -10;
   margin-top: -10;
   z-index: 1;
