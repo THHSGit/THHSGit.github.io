@@ -134,6 +134,37 @@ li button:hover {
   font-size: 36px;
   margin-left: 50px;
 }
+.sidenavb {
+  width: 100%;
+  height: 0;
+  position: fixed;
+  z-index: -1;
+  bottom: 0;
+  background-color: #000000;
+  color: #CB0101;
+  overflow-x: scroll;
+  transition: 0.5s;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.sidenavb a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+.sidenavb a:hover {
+  color: #f1f1f1;
+}
+.sidenavb .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
 .modalDialog {
   overflow: scroll;
   position: fixed;
