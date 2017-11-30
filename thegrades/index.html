@@ -12,15 +12,11 @@
       <ul>
         <li><a>Home</a>
         </li>
-        <li>
-          <button onclick="location.href = '#box1';">Trailer</button>
-        </li>
-        <li><a><span onclick = "openNavl()">Synopsis</span></a>
-        </li>
-        <li><a><span onclick = "openNavr()">Characters</span></a>
-        </li>
-        <li style="float: right;"><a>About</a>
-        </li>
+        <li><button onclick="location.href = '#box1';">Trailer</button></li>
+        <li><button onclick="location.href = '#box2';">Scenes</button></li>
+        <li><a><span onclick = "openNavl()">Synopsis</span></a></li>
+        <li><a><span onclick = "openNavr()">Characters</span></a></li>
+        <li style="float: right;"><a><span onclick = "openNavb()">About</span></a></li>
       </ul>
       <div id="spacer">
       </div>
@@ -46,6 +42,12 @@
         <br>
         <p>Cruna (Crew-na)- Similar to anyone of the crew members as she helps Disseus through the many challenges he will face throughout the realm.</p>
       </div>
+      <div id="mySidenavl" class="sidenavb">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <br>
+        <p class="titleText">About</p>
+        <p>by</p>
+      </div>
       <center>
         <img src="images/coollogo_com-318931283 (1).png" width="30%">
         <div class="underTitle">"Take an adventure inside your gradebook"</div>
@@ -53,13 +55,19 @@
       </center>
       <div class="modalDialog" id="box1">
         <div>
-          <a class="close" href="#close" title="Close">X</a>
+          <a class="close" href="#close" title="Close">&times;</a>
           <p class="titleText">Trailer</p>
           <iframe src="https://drive.google.com/file/d/10QHwdBNECsLlz73ayQLdY8fjjdcDWuOe/preview" width="640" height="480"></iframe>
         </div>
       </div>
+      <div class="modalDialog" id="box2">
+        <div>
+          <a class="close" href="#close" title="Close">&times;</a>
+          <p class="titleText">Behind the Scenes: Clips</p>
+          <iframe src="https://drive.google.com/file/d/1jRd52y4CINwwtBMQK5aTQnDb1e-1jC9t/preview" width="640" height="480"></iframe>
+        </div>
+      </div>
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="footer">
       <p>copyright shtuff</p>
     </div>
