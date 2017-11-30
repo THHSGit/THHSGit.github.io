@@ -157,3 +157,18 @@ li button:hover {
   background: -webkit-linear-gradient(#fff, #999);
   background: -o-linear-gradient(#fff, #999);
 }
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  top: -7px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.close:hover {
+  background: #00d9ff;
+}
