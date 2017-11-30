@@ -9,6 +9,10 @@ body {
   top: 0;
   width: 100%
 }
+.main {
+  margin-top: 60;
+  width: 100%
+}
 .footer {
     background-color: #111;
     padding: 10px;
