@@ -152,14 +152,13 @@ li button:hover {
   position: relative;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
-  background: #fff;
-  background: -moz-linear-gradient(#fff, #999);
-  background: -webkit-linear-gradient(#fff, #999);
-  background: -o-linear-gradient(#fff, #999);
+  background: #CB0101;
+  background: -moz-linear-gradient(#CB0101, #111);
+  background: -webkit-linear-gradient(#CB0101, #111);
+  background: -o-linear-gradient(#CB0101, #111);
 }
 .close {
-  background: #606061;
-  color: #FFFFFF;
+  color: #606061;
   line-height: 25px;
   position: absolute;
   right: 0px;
@@ -170,5 +169,5 @@ li button:hover {
   font-weight: bold;
 }
 .close:hover {
-  background: #00d9ff;
+  background: #111;
 }
