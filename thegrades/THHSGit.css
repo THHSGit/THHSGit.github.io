@@ -7,7 +7,6 @@ body {
 .titletext {
   font-size: 50px;
   text-align: center;
-  color: #FFFFFF;
 }
 #spacer {
   background-color: #CB0101;
@@ -62,7 +61,7 @@ li button:hover {
   color: #CB0101;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 40px;
+  padding-top: 5px;
   padding-left: 10px;
 }
 .sidenavr a {
@@ -94,7 +93,7 @@ li button:hover {
   color: #CB0101;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 40px;
+  padding-top: 5px;
   padding-left: 10px;
 }
 .sidenavl a {
