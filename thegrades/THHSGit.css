@@ -176,7 +176,7 @@ li button:hover {
     background: rgba(0, 0, 0, 0.5);
     z-index: 1;
     opacity: 0;
-    color: #990000;
+    color: #FFFFFF;
     -webkit-transition: opacity 400ms ease-in;
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
@@ -191,10 +191,10 @@ li button:hover {
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
-    background: #111;
-    background: -moz-linear-gradient(#000000, #111, #CB0101);
+    background: #333;
+    /*background: -moz-linear-gradient(#000000, #111, #CB0101);
     background: -webkit-linear-gradient(#000000, #111, #CB0101);
-    background: -o-linear-gradient(#000000, #111, #CB0101);
+    background: -o-linear-gradient(#000000, #111, #CB0101);*/
 }
 .close {
     color: #CB0101;
@@ -206,6 +206,7 @@ li button:hover {
     width: 24px;
     text-decoration: none;
     font-weight: bold;
+    font-size: 40px;
 }
 .close:hover {
     background: #111;
