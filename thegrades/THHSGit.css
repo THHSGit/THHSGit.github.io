@@ -140,7 +140,7 @@ li button:hover {
     transition: 0.3s;
 }
 .sidenavr a:hover {
-    color: #f1f1f1;
+    color: #CB0101;
 }
 .sidenavr .closebtn {
     position: absolute;
@@ -172,7 +172,7 @@ li button:hover {
     transition: 0.3s;
 }
 .sidenavl a:hover {
-    color: #f1f1f1;
+    color: #CB0101;
 }
 .sidenavl .closebtn {
     position: absolute;
@@ -203,7 +203,7 @@ li button:hover {
     transition: 0.3s;
 }
 .sidenavb a:hover {
-    color: #f1f1f1;
+    color: #CB0101;
 }
 .sidenavb .closebtn {
     position: absolute;
@@ -244,7 +244,7 @@ li button:hover {
     background: -o-linear-gradient(#000000, #111, #CB0101);*/
 }
 .close {
-    color: #333;
+    color: #CB0101;
     line-height: 25px;
     position: absolute;
     right: 0px;
