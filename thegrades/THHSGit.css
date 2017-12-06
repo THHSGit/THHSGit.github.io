@@ -83,6 +83,7 @@ li button:hover {
 .dropButton {
 	display: block;
     cursor: pointer;
+	z-index: 2;
 }
 
 .dropDown {
