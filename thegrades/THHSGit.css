@@ -37,9 +37,12 @@ body {
 }
 #trailer {
     background-color: #111;
+    width: 100%;
 }
 #teasersclips {
-    background-color: #333;
+    background-color: #CB0101;
+    opacity: 0.7;
+    width: 100%
 }
 ul {
     list-style-type: none;
