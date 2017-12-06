@@ -38,8 +38,9 @@ body {
 .trailer {
     background-color: #111;
     width: 100%;
+    margin-bottom: -50;
 }
-.teasersclips {
+.teaserclips {
     background-color: #CB0101;
     width: 100%
 }
