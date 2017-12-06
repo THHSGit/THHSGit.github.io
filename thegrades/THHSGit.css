@@ -35,12 +35,12 @@ body {
     z-index: 2;
     margin-left: -10;
 }
-.trailer {
+#trailer {
     background-color: #111;
     width: 100%;
     margin-bottom: -50;
 }
-.teaserclips {
+#teaserclips {
     background-color: #CB0101;
     width: 100%
 }
