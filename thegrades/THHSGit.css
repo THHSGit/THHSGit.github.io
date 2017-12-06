@@ -80,6 +80,41 @@ li button {
 li button:hover {
     background-color: #CB0101;
 }
+.dropButton {
+	display: block;
+    cursor: pointer;
+}
+
+.dropDown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropDown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropDown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropDown-content a:hover {background-color: #f1f1f1}
+
+.dropDown:hover .dropDown-content {
+    display: block;
+}
+
+.dropDown:hover .dropButton {
+    background-color: #CB0101;
+}
 .sidenavr {
     height: 100%;
     width: 0;
