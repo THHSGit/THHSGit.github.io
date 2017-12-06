@@ -14,8 +14,8 @@
         </li>
         <li><a><span onclick = "openNavl()">Synopsis</span></a></li>
         <li><a><span onclick = "openNavr()">Characters</span></a></li>
-        <li><button onclick="location.href = '#box1';">Trailer</button></li>
-        <li><button onclick="location.href = '#box2';">Teaser Clips</button></li>
+        <li><a onclick="location.href = '#box1';">Trailer</a></li>
+        <li><a onclick="location.href = '#box2';">Teaser Clips</a></li>
         <li style="float: right;"><a><span onclick = "openNavb()">About</span></a></li>
       </ul>
       <div id="spacer">
@@ -64,22 +64,32 @@
       </div>
       <center>
         <img src="images/coollogo_com-318931283 (1).png" width="30%">
-          <div class="underTitle">"Take an adventure inside your gradebook"</div>
-          <div class="underTitle">Summer 2018</div>
-          <img src = "images/IMG_2852.JPG" width="80%">
+        <div class="underTitle">"Take an adventure inside your gradebook"</div>
+        <div class="underTitle">Summer 2018</div>
+        <img src = "images/IMG_2852.JPG" width="80%">
+        <div class="trailer">
+          <iframe src="https://drive.google.com/file/d/1A4O6n5OMIwk3HdR52PTzbIu9YazCAxdU/preview" width="640" height="480"></iframe>
+        </div>
+        <div class="teaserclips">
+          <h2>"Loser:"</h2>
+          <iframe src="https://drive.google.com/file/d/1wphSf92-MjY5_DamJFOQGhwPNLSLB7kF/preview" width="640" height="480"></iframe>
+          <h2>Trouble:</h2>
+          <iframe src="https://drive.google.com/file/d/1jRd52y4CINwwtBMQK5aTQnDb1e-1jC9t/preview" width="640" height="480"></iframe>
+          <h2>The Battle:</h2>
+          <iframe src="https://drive.google.com/file/d/14KvDmb6SrluxWCq6T16v5O6zT40uzuSM/preview" width="640" height="480"></iframe>
+        </div>
       </center>
       <div class="modalDialog" id="box1">
         <div>
           <a class="close" href="#close" title="Close">&times;</a>
-          <p class="titleText">Trailer</p>
-          <iframe src="https://drive.google.com/file/d/10QHwdBNECsLlz73ayQLdY8fjjdcDWuOe/preview" width="640" height="480"></iframe>
+          <p class="titleText">Episode 1</p>
         </div>
       </div>
       <div class="modalDialog" id="box2">
         <div>
           <a class="close" href="#close" title="Close">&times;</a>
-          <p class="titleText">Teaser Clip</p>
-          <iframe src="https://drive.google.com/file/d/1jRd52y4CINwwtBMQK5aTQnDb1e-1jC9t/preview" width="640" height="480"></iframe>
+          <p class="titleText">Episode 2</p>
+          
         </div>
       </div>
     </div>
