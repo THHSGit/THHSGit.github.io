@@ -24,6 +24,7 @@ body {
 .titleText {
     font-size: 50px;
     text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .underTitle {
     font-size: 25px;
