@@ -1,7 +1,7 @@
 body {
     background-color: #222;
     color: #FFFFFF;
-    font-family: 'Gruppo';
+    font-family: Arial, Helvetica, sans-serif;
     z-index: 0;
 }
 .header {
