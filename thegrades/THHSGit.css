@@ -31,7 +31,7 @@ body {
 #spacer {
     background-color: #CB0101;
     width: 100%;
-    padding: 10px 1px;
+    height: 5px;
     z-index: 2;
     margin-left: -10;
 }
@@ -77,7 +77,7 @@ li button:hover {
     position: fixed;
     z-index: -1;
     top: 0;
-    right: -10;
+    right: -15;
     background-color: #000000;
     color: #FFFFFF;
     overflow-x: hidden;
