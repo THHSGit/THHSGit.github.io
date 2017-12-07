@@ -47,7 +47,7 @@ body {
 }
 iframe {
 	width: 90%;
-	height: auto;
+	padding-bottom: 56.25%;
 }
 ul {
     list-style-type: none;
