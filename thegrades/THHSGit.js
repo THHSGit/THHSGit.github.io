@@ -18,15 +18,5 @@ function closeNav() {
     document.getElementById("mySidenavb").style.height = "0px";
     document.getElementById("mySidenavb").style.zIndex = "-1";
 } 
-var audioM = document.getElementById("audio");
-var i = 0;
-function audioC() {
-    if (i = 0) {
-        audioM.muted = true;
-        i = 1;
-    } else {
-        audioM.muted = false;
-        i = 0;
-    }
-}
+document.getElementById("audio").volume = 20;
     
