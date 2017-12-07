@@ -18,5 +18,5 @@ function closeNav() {
     document.getElementById("mySidenavb").style.height = "0px";
     document.getElementById("mySidenavb").style.zIndex = "-1";
 } 
-document.getElementById("audio").volume = 20;
-    
+var vidvol = document.getElementById("audio");
+vidvol.volume = 0.3;
