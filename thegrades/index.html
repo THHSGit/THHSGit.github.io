@@ -7,10 +7,9 @@
     <script src="THHSGit.js"></script>
   </head>
   <body>
-    <audio loop="loop" id="audio">
+    <!--<audio loop="loop" id="audio">
       <source src="Best Dramatic music ever 2.mp3 " type="audio/mp3">
-    </audio>
-   
+    </audio>-->  
       <ul>
         <li><a>Home</a>
         </li>
@@ -18,8 +17,9 @@
         <li><a><span onclick = "openNavr()">Characters</span></a></li>
         <li><a href="#trailer">Trailer</a></li>
         <li><a href="#teaserclips">Teaser Clips</a></li>
+        <li>
          <div class="dropDown">
-           <li class="dropli">Episode Summary</li>
+           <p class="dropButton">Episode Summary</p>
            <div class="dropDown-content">
              <a onclick="location.href = '#box1';">Episode 1</a>
              <a onclick="location.href = '#box2';">Episode 2</a>
@@ -28,6 +28,7 @@
              <a onclick="location.href = '#box5';">Episode 5</a>
            </div>
          </div>
+        </li>
         <li style="float: right;"><a><span onclick = "openNavb()">About</span></a></li>
       </ul>
       <div id="spacer">
