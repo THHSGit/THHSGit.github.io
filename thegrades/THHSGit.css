@@ -45,6 +45,10 @@ body {
     background-color: #333;
     width: 100%
 }
+iframe {
+	width: 90%;
+	height: auto;
+}
 ul {
     list-style-type: none;
     margin: 0;
