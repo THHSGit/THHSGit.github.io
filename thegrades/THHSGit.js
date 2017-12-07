@@ -19,4 +19,4 @@ function closeNav() {
     document.getElementById("mySidenavb").style.zIndex = "-1";
 } 
 var vid = document.getElementById("audio");
-vid.volume = 0;
+vid.volume = 0.5;
