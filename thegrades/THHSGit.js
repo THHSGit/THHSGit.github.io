@@ -25,8 +25,8 @@ function audioC() {
         audioM.muted = true;
         i = 1;
     } else {
-        audioM.muted = false
-        i = 0
+        audioM.muted = false;
+        i = 0;
     }
 }
     
