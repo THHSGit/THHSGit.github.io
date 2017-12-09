@@ -17,7 +17,7 @@ body {
     background-color: #111;
     padding: 10px;
     width: 100%;
-    margin-left: -10px;
+    margin-left: 0px;
     text-align: center;
     bottom: 0px;
 }
@@ -119,7 +119,7 @@ li.dropdown {
     position: fixed;
     z-index: -1;
     top: 0;
-    right: -15;
+    right: 0;
     background-color: #000000;
     color: #FFFFFF;
     overflow-x: hidden;
@@ -151,7 +151,7 @@ li.dropdown {
     position: fixed;
     z-index: -1;
     top: 0;
-    left: -10;
+    left: 0;
     background-color: #000000;
     color: #FFFFFF;
     overflow-x: hidden;
