@@ -71,10 +71,6 @@ li button:hover {
   z-index: 1;
   opacity: 0;
   color: #111;
-  -webkit-transition: opacity 400ms ease-in;
-  -moz-transition: opacity 400ms ease-in;
-  transition: opacity 400ms ease-in;
-  pointer-events: none;
 }
 .modalDialog:target {
   opacity: 1;
