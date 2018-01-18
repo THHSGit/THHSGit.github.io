@@ -11,37 +11,40 @@ body {
     margin-left: 0;
 }
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #111;
-  margin-left: -10;
-  margin-top: -10;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    width: 100%;
+    margin-left: 0;
+    margin-top: -10;
+    z-index: 2;
 }
 li {
-  float: left;
+    float: left;
 }
 li a {
-  display: block;
-  color: #03A9F4;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 li a:hover {
-  background-color: #FAFAFA;
+    background-color: #111;
 }
 li button {
-  display: block;
-  background-color: #03A9F4;
-  border-color: #03A9F4;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    background-color: #111;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 li button:hover {
-  background-color: #ffd700;
+    background-color: #03A9F4;
 }
 .imageBox {
   width: 30%;
