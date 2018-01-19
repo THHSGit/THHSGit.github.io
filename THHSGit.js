@@ -1,34 +1,20 @@
-import React, { Component } from 'react'
-import { Menu } from 'semantic-ui-react'
-export default class MenuExampleBasic extends Component {
-  state = {}
-  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-  render() {
-    const { activeItem } = this.state
-    return (
-      <Menu>
-        <Menu.Item
-          name='Home'
-          active={activeItem === 'Home'}
-          onClick={this.handleItemClick}
-        >
-          Home
-        </Menu.Item>
-        <Menu.Item
-          name='N/A'
-          active={activeItem === 'N/A'}
-          onClick={this.handleItemClick}
-        >
-          N/A
-        </Menu.Item>
-        <Menu.Item
-          name='N/A'
-          active={activeItem === 'N/A'}
-          onClick={this.handleItemClick}
-        >
-          N/A
-        </Menu.Item>
-      </Menu>
-    )
-  }
+function openNavr() {
+    document.getElementById("mySidenavr").style.width = "350px";
+    document.getElementById("mySidenavr").style.zIndex = "1";
 }
+function openNavl() {
+    document.getElementById("mySidenavl").style.width = "350px";
+    document.getElementById("mySidenavl").style.zIndex = "1";
+}
+function openNavb() {
+    document.getElementById("mySidenavb").style.height = "350px";
+    document.getElementById("mySidenavb").style.zIndex = "1";
+}
+function closeNav() {
+    document.getElementById("mySidenavr").style.width = "0";
+    document.getElementById("mySidenavr").style.zIndex = "-1";
+    document.getElementById("mySidenavl").style.width = "0";
+    document.getElementById("mySidenavl").style.zIndex = "-1";
+    document.getElementById("mySidenavb").style.height = "0px";
+    document.getElementById("mySidenavb").style.zIndex = "-1";
+} 
