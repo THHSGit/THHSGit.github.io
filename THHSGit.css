@@ -7,12 +7,24 @@ body {
 #movies {
 	background-color: #111;
 	color: #FFFFFF;
+	z-index: 0;
+	margin: auto;
+	text-align: center;
+	margin-top: -10px;
 }
 #action {
 	background-color: #FFFFFF;
+	z-index: 0;
+	margin: auto;
+	text-align: center;
+	margin-top: -10px;
 }
 #romance {
 	background-color: #03A9F4;
+	z-index: 0;
+	margin: auto;
+	text-align: center;
+	margin-top: -10px;
 }
 .header {
     position: fixed;
