@@ -4,6 +4,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     z-index: 0;
 }
+#movies {
+	background-color: #111;
+}
+#action {
+	background-color: #FFFFFF;
+}
+#romance {
+	background-color: #03A9F4;
+}
 .header {
     position: fixed;
     top: 0;
