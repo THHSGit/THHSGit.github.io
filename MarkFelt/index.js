@@ -4,3 +4,4 @@ function run() {
 function removeLoader() {
   document.getElementById("ui segment").style.display = "none";
 }
+run();
