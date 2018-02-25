@@ -1,3 +1,11 @@
+function run() {
+    setTimeout(removeLoader, 3500);
+}
+function removeLoader() {
+    document.getElementById("loader").style.display = "none";
+}
+run();
+
 var slideIndexMovies = 1;
 
 showDivsMovies(slideIndexMovies);
@@ -144,4 +152,4 @@ function closeNav() {
 
     document.getElementById("mySidenavb").style.zIndex = "-1";
 
-} 
+}
