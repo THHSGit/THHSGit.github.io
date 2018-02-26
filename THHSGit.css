@@ -4,6 +4,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     z-index: 0;
 }
+ui container {
+	background-color: #03A9F4;
+}
 #movies {
 	background-color: #111;
 	color: #FFFFFF;
@@ -254,7 +257,7 @@ li.dropdown {
     background: #111;
 }
 .close {
-    color: #03A9F4;
+    color: #FFFFFF;
     line-height: 25px;
     position: absolute;
     right: 0px;
