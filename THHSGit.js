@@ -18,6 +18,7 @@ function detectmob() {
     ){
         document.getElementsByClassName("mySlidesMovies").style.width = "85%";
         document.getElementsByClassName("mySlidesMovies").style.height = "";
+        
     }
     else {
         return false;
