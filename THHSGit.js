@@ -16,8 +16,10 @@ function detectmob() {
         || navigator.userAgent.match(/BlackBerry/i)
         || navigator.userAgent.match(/Windows Phone/i)
     ){
+        alert("this is a phone");
         document.getElementsByClassName("mySlidesMovies").style.width = "85%";
         document.getElementsByClassName("mySlidesMovies").style.height = "auto";
+        alert("this is a fone");
         
     }
     else {
