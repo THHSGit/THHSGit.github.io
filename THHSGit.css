@@ -4,9 +4,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     z-index: 0;
 }
-ui container {
+.ui.container {
 	background-color: #03A9F4;
-	color: #03A9F4;
 }
 #movies {
 	background-color: #111;
