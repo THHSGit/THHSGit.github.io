@@ -7,6 +7,25 @@ function removeLoader() {
 }
 run();
 
+function detectmob() {
+    if( navigator.userAgent.match(/Android/i)
+        || navigator.userAgent.match(/webOS/i)
+        || navigator.userAgent.match(/iPhone/i)
+        || navigator.userAgent.match(/iPad/i)
+        || navigator.userAgent.match(/iPod/i)
+        || navigator.userAgent.match(/BlackBerry/i)
+        || navigator.userAgent.match(/Windows Phone/i)
+    ){
+        document.getElementsByClassName("mySlidesMovies").style.width = "85%";
+        document.getElementsByClassName("mySlidesMovies").style.height = "null";
+    }
+    else {
+        return false;
+    }
+}
+
+detectmob();
+
 var slideIndexMovies = 1;
 
 showDivsMovies(slideIndexMovies);
