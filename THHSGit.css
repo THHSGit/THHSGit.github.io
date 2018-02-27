@@ -4,30 +4,39 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     z-index: 0;
 }
+.ui.secondary.horizontal.pointing.menu {
+    background-color: #000000de;
+}
+.ui.secondary.horizontal.pointing.menu .item {
+    color: #e0d3d3;
+}
+.ui.secondary.horizontal.pointing.menu .item:hover {
+    background-color: #03A9F4;
+}
 .ui.container {
-	background-color: #03A9F4;
+    background-color: #03A9F4;
 }
 #movies {
-	background-color: #111;
-	color: #FFFFFF;
-	z-index: 0;
-	margin: auto;
-	text-align: center;
-	margin-top: -10px;
+    background-color: #111;
+    color: #FFFFFF;
+    z-index: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: -10px;
 }
 #action {
-	background-color: #FFFFFF;
-	z-index: 0;
-	margin: auto;
-	text-align: center;
-	margin-top: -10px;
+    background-color: #FFFFFF;
+    z-index: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: -10px;
 }
 #romance {
-	background-color: #03A9F4;
-	z-index: 0;
-	margin: auto;
-	text-align: center;
-	margin-top: -10px;
+    background-color: #03A9F4;
+    z-index: 0;
+    margin: auto;
+    text-align: center;
+    margin-top: -10px;
 }
 .header {
     position: fixed;
@@ -40,7 +49,7 @@ body {
 }
 .footer {
     background-color: #111;
-	color: #FFFFFF;
+    color: #FFFFFF;
     padding: 10px;
     width: 100%;
     margin-left: 0px;
@@ -50,7 +59,7 @@ body {
 .titleText {
     font-size: 50px;
     text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .underTitle {
     font-size: 25px;
@@ -127,7 +136,7 @@ li.dropdown {
     text-align: left;
 }
 .dropdown-content a:hover {
-	background-color: #03A9F4
+    background-color: #03A9F4
 }
 .dropdown:hover .dropdown-content {
     display: block;
@@ -250,7 +259,7 @@ li.dropdown {
 }
 .modalDialog>div {
     width: 75%;
-	color: #FFFFFF;
+    color: #FFFFFF;
     position: relative;
     margin: 10% auto;
     padding: 5px 20px 13px 20px;
