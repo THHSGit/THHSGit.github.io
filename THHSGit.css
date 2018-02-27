@@ -5,7 +5,7 @@ body {
     z-index: 0;
 }
 .ui.secondary.horizontal.pointing.menu {
-    background-color: #000000de;
+    background-color: #111;
 }
 .ui.secondary.horizontal.pointing.menu .item {
     color: #e0d3d3;
