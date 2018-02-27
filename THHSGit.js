@@ -17,7 +17,7 @@ function detectmob() {
         || navigator.userAgent.match(/Windows Phone/i)
     ){
         document.getElementsByClassName("mySlidesMovies").style.width = "85%";
-        document.getElementsByClassName("mySlidesMovies").style.height = "";
+        document.getElementsByClassName("mySlidesMovies").style.height = "auto";
         
     }
     else {
