@@ -5,7 +5,7 @@ body {
     z-index: 0;
     
 }
-.ui.secondary.horizontal.pointing.menu {
+.ui.secondary.vertical.pointing.menu {
     background-color: #111;
     position: fixed;
     z-index: 3;
