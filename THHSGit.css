@@ -6,7 +6,8 @@ body {
 }
 .ui.secondary.horizontal.pointing.menu {
     background-color: #111;
-        position: fixed;
+    position: fixed;
+    z-index: 3;
 }
 .ui.secondary.horizontal.pointing.menu .item {
     color: #e0d3d3;
