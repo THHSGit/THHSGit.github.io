@@ -9,11 +9,12 @@ body {
     background-color: #111;
     position: fixed;
     z-index: 3;
+    width: 8%
 }
-.ui.secondary.horizontal.pointing.menu .item {
+.ui.secondary.vertical.pointing.menu .item {
     color: #e0d3d3;
 }
-.ui.secondary.horizontal.pointing.menu .item:hover {
+.ui.secondary.vertical.pointing.menu .item:hover {
     background-color: #03A9F4;
 }
 .ui.container {
