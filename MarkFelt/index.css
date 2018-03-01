@@ -1,7 +1,11 @@
 body {
   background-image: url("../MarkFelt/images/mark-felt-the-man-who-brought-down-the-white-house2.jpg");
   background-repeat: no-repeat;
+  /*Y U NO WORK!!!!*/
 }
 h1, h2, h3, h4, h5, h6, p {
   text-align: center;
+}
+.ui.secondary.vertical.pointing.menu {
+  z-index: 2;
 }
