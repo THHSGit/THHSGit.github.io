@@ -1,5 +1,5 @@
 function run() {
-    setTimeout(removeLoader, 3500);
+    setTimeout(removeLoader, 2000);
 }
 function removeLoader() {
     document.getElementById("loader").style.display = "none";
