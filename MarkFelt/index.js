@@ -1,7 +1,6 @@
 $('.ui.dropdown')
   .dropdown()
 ;
-
 function run() {    
   setTimeout(removeLoader, 2000);    
 }
