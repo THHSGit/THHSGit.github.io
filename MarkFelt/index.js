@@ -13,7 +13,7 @@ function retract() {
   } else if (i = 0) {
     document.getElementById("menu").style.display = "block";
     document.getElementById("reretractbutton").style.display = "none";
-    i = 1
+    i = 1;
   }
 }
 run();
