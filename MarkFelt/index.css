@@ -1,28 +1,30 @@
 body {
-  /*ITS EMPTY FOR ONE*/
+    /*ITS EMPTY FOR ONE*/
 }
 h1, h2, h3, h4, h5, h6, p {
-  text-align: center;
+    text-align: center;
 }
 .ui.secondary.vertical.pointing.menu {
-  position: fixed;
-  z-index: 3;
-  width: 20%;
+    position: fixed;
+    z-index: 3;
+    width: 8%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 #reretractbutton {
-  position: fixed;
-  z-index: 3;
-  display: none;
+    position: fixed;
+    z-index: 3;
+    display: none;
 }
 #gameMain {
-  text-align: center;
+    text-align: center;
 }
 #q1{
-  display: block;
+    display: block;
 }
 #q2, #q3, #q4, #q5{
-  display: none;
+    display: none;
 }
 #retry{
-  display: none;
+    display: none;
 }
