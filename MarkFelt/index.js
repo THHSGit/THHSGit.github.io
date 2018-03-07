@@ -12,21 +12,13 @@ function removeLoader() {
 }
 function retract() {
   if (retract_status === 1) {
-    $('#menu').transition({ opacity: 0 });
-    document.getElementById("menu").style.transition = "opacity 1s ease-in-out";
-    //document.getElementById("menu").style.display = "none";
-    //document.getElementById("reretractbutton").style.display = "block";
-    document.getElementById("reretractbutton").style.transition = "opacity 1s ease-out-in";
-    $('#reretractbutton').transition({ opacity: 1 });
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("reretractbutton").style.display = "block";
     retract_status = 0;
   } else if (retract_status === 0) {
-    $('#reretractbutton').transition({ opacity: 0 });
-    document.getElementById("reretractbutton").style.transition = "opacity 1s ease-in-out";
-    //document.getElementById("reretractbutton").style.display = "none";
-    //document.getElementById("menu").style.display = "block";
-    document.getElementById("menu").style.transition = "opacity 1s ease-out-in";
+    document.getElementById("reretractbutton").style.display = "none";
+    document.getElementById("menu").style.display = "block";
     retract_status = 1;
-    $('#menu').transition({ opacity: 1 });
   }
 }
 run();
