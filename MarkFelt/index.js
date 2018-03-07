@@ -23,3 +23,62 @@ function retract() {
 }
 run();
 
+/*
+
+Quiz code
+
+*/
+
+function q1r(answer) {
+  if (answer === 1) {
+    document.getElementById("q1").style.display = "none";
+    document.getElementById("q2").style.display = "block";
+  } else if (answer === 2) {
+    document.getElementById("q1").style.display = "none";
+    document.getElementById("retry").style.display = "block";
+  }
+}
+function q2r(answer) {
+  if (answer === 1) {
+    document.getElementById("q2").style.display = "none";
+    document.getElementById("q3").style.display = "block";
+  } else if (answer === 2) {
+    document.getElementById("q2").style.display = "none";
+    document.getElementById("retry").style.display = "block";
+  }
+}
+function q3r(answer) {
+  if (answer === 1) {
+    document.getElementById("q3").style.display = "none";
+    document.getElementById("q4").style.display = "block";
+  } else if (answer === 2) {
+    document.getElementById("q3").style.display = "none";
+    document.getElementById("retry").style.display = "block";
+  }
+}
+function q4r(answer) {
+  if (answer === 1) {
+    document.getElementById("q4").style.display = "none";
+    document.getElementById("q5").style.display = "block";
+  } else if (answer === 2) {
+    document.getElementById("q4").style.display = "none";
+    document.getElementById("retry").style.display = "block";
+  }
+}
+function q5r(answer) {
+  if (answer === 1) {
+    document.getElementById("q5").style.display = "none";
+    document.getElementById("q1").style.display = "block";
+  } else if (answer === 2) {
+    document.getElementById("q5").style.display = "none";
+    document.getElementById("retry").style.display = "block";
+  }
+}
+function retry() {
+  document.getElementById("q1").style.display = "block";
+  document.getElementById("q2").style.display = "none";
+  document.getElementById("q3").style.display = "none";
+  document.getElementById("q4").style.display = "none";
+  document.getElementById("q5").style.display = "none";
+  document.getElementById("retry").style.display = "none";
+}
