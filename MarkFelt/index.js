@@ -25,7 +25,7 @@ run();
 
 /*
 
-Quiz code
+Quiz Code
 
 */
 
@@ -68,8 +68,11 @@ function q4r(answer) {
 function q5r(answer) {
     if (answer === 1) {
         document.getElementById("q5").style.display = "none";
-        document.getElementById("q1").style.display = "block";
+        document.getElementById("completed").style.display = "block";
     } else if (answer === 2) {
+        document.getElementById("q5").style.display = "none";
+        document.getElementById("retry").style.display = "block";
+    } else if (answer === 3) {
         document.getElementById("q5").style.display = "none";
         document.getElementById("retry").style.display = "block";
     }
@@ -81,4 +84,5 @@ function retry() {
     document.getElementById("q4").style.display = "none";
     document.getElementById("q5").style.display = "none";
     document.getElementById("retry").style.display = "none";
+    document.getElementById("completed").style.display = "none";
 }
