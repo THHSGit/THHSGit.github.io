@@ -3,16 +3,27 @@ body {
     color: #111;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 0;
-    
 }
-.ui.secondary.vertical.pointing.menu {
-    background-color: #111;
+#reretractbutton {
     position: fixed;
     z-index: 3;
-    width: 15%
+    display: none;
+    background-color: #000000de;
+    color: #e0d3d3;
+}
+.ui.active.dimmer {
+    position: fixed;
+}
+.ui.secondary.vertical.pointing.menu {
+    background-color: #000000de;
+    z-index: 3;
+    position: fixed;
+    width: 50px;
+    text-align: center;
 }
 .ui.secondary.vertical.pointing.menu .item {
     color: #e0d3d3;
+    padding-top: 15px;
 }
 .ui.secondary.vertical.pointing.menu .item:hover {
     background-color: #03A9F4;
@@ -23,20 +34,6 @@ body {
 #movies {
     background-color: #111;
     color: #FFFFFF;
-    z-index: 0;
-    margin: auto;
-    text-align: center;
-    margin-top: -10px;
-}
-#action {
-    background-color: #FFFFFF;
-    z-index: 0;
-    margin: auto;
-    text-align: center;
-    margin-top: -10px;
-}
-#romance {
-    background-color: #03A9F4;
     z-index: 0;
     margin: auto;
     text-align: center;
@@ -74,171 +71,6 @@ body {
     height: 7px;
     z-index: 2;
     margin-left: 0;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #111;
-    width: 100%;
-    margin-left: 0;
-    margin-top: -10;
-    z-index: 2;
-}
-li {
-    float: left;
-}
-li a {
-    display: block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li a:hover {
-    background-color: #CB0101;
-}
-li button {
-    display: block;
-    background-color: #111;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li button:hover {
-    background-color: #03A9F4;
-}
-li a, .dropbtn {
-    display: inline-block;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #03A9F4;
-}
-li.dropdown {
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    color: #FFFFFF;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.dropdown-content a:hover {
-    background-color: #03A9F4
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.sidenavr {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    background-color: #000000;
-    color: #FFFFFF;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 5px;
-    padding-left: 10px;
-}
-.sidenavr a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFFFFF;
-    display: block;
-    transition: 0.3s;
-}
-.sidenavr a:hover {
-    color: #CB0101;
-}
-.sidenavr .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-.sidenavl {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    background-color: #000000;
-    color: #FFFFFF;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 5px;
-    padding-left: 10px;
-}
-.sidenavl a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFFFFF;
-    display: block;
-    transition: 0.3s;
-}
-.sidenavl a:hover {
-    color: #CB0101;
-}
-.sidenavl .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-.sidenavb {
-    width: 100%;
-    height: 0;
-    position: fixed;
-    z-index: -1;
-    bottom: 0;
-    left: -10;
-    background-color: #000000;
-    color: #FFFFFF;
-    overflow-x: scroll;
-    transition: 0.5s;
-    padding-left: 10px;
-}
-.sidenavb a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFFFFF;
-    display: block;
-    transition: 0.3s;
-}
-.sidenavb a:hover {
-    color: #CB0101;
-}
-.sidenavb .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 40px;
-    margin-left: 50px;
 }
 .modalDialog {
     overflow: scroll;
