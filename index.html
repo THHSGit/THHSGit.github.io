@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body style="background-color: #111111">
 <div class="ui container" width="100%">
     <center>
         <button class="ui button" role="button" id="reretractbutton" onclick="retract();">Show</button>
-        <div class="ui segment" id="1" style="background-color: #111111; color: #e0d3d3;">
+        <div id="1" style="background-color: #111111; color: #e0d3d3;">
             <h1>THHS Film Productions</h1>
             <h2>The place where all the next big hits are.</h2>
         </div>
@@ -33,7 +33,7 @@
                 <i aria-hidden="true" class="step backward icon"></i>
             </a>
         </div>
-        <div id="2">
+        <div class="ui segment" id="2">
             <h2>All Films</h2>
             <p>
                 Scroll through the films (using the arrows), and click on the poster to view the synopsis and any
@@ -76,13 +76,13 @@
                 <button class="w3-button w3-black w3-display-right" onclick="plusDivsMovies(1)">&#10095;</button>
             </div>
         </div>
-        <div class="ui segment" id="3" style="background-color: #111111; color: #e0d3d3;">
+        <div id="3" style="background-color: #111111; color: #e0d3d3;">
             <h2>Vote!</h2>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF93u5TUpQES5KMzVcQfigQBvn5n_xQnQPxZYfULUPzcOsQw/viewform?embedded=true"
                     width="90%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...
             </iframe>
         </div>
-        <div id="4">
+        <div class="ui segment" id="4">
             <h2>About</h2>
             <h3>Resources</h3>
             <div class="ui cards">
