@@ -12,7 +12,7 @@
 <div class="ui container" width="100%">
     <center>
         <button class="ui button" role="button" id="reretractbutton" onclick="retract();">Show</button>
-        <div class="ui segment" id="1">
+        <div class="ui segment" id="1" style="background-color: #111111; color: #e0d3d3;">
             <h1>THHS Film Productions</h1>
             <h2>The place where all the next big hits are.</h2>
         </div>
@@ -33,10 +33,11 @@
                 <i aria-hidden="true" class="step backward icon"></i>
             </a>
         </div>
-        <div class="ui segment" id="2">
+        <div id="2">
             <h2>All Films</h2>
             <p>
-                Scroll through the films (using the arrows), and click on the poster to view the synopsis and any additional resources for that film.
+                Scroll through the films (using the arrows), and click on the poster to view the synopsis and any
+                additional resources for that film.
             </p>
             <div class="w3-content w3-display-container">
                 <a onclick="location.href = '#TheGrades';" class="mySlidesMovies"><img src="thegrades.png"
@@ -49,10 +50,12 @@
                                                                                            style="width: 85%;"></a>
                 <a onclick="location.href = '#TrappedInside';" class="mySlidesMovies"><img src="Movie_Poster.jpg"
                                                                                            style="width: 85%;"></a>
-                <a onclick="location.href = '#Number10';" class="mySlidesMovies"><img src="Screenshot 2018-03-14 at 1.41.31 PM.png"
-                                                                                      style="width: 85%;"></a>
-                <a onclick="location.href = '#Freedom';" class="mySlidesMovies"><img src="Screenshot 2018-03-14 at 1.43.50 PM.png"
-                                                                                     style="width: 85%;"></a>
+                <a onclick="location.href = '#Number10';" class="mySlidesMovies"><img
+                        src="Screenshot 2018-03-14 at 1.41.31 PM.png"
+                        style="width: 85%;"></a>
+                <a onclick="location.href = '#Freedom';" class="mySlidesMovies"><img
+                        src="Screenshot 2018-03-14 at 1.43.50 PM.png"
+                        style="width: 85%;"></a>
                 <!--class split-->
 
                 <a onclick="location.href = '#TheReturn';" class="mySlidesMovies"><img src="MoviePoster.png"
@@ -64,19 +67,104 @@
                         style="width: 85%;"></a>
                 <a onclick="location.href = '#TheEscape';" class="mySlidesMovies"><img src="Capture.PNG"
                                                                                        style="width: 85%;"></a>
-                <a onclick="location.href = '#Embark';" class="mySlidesMovies"><img src="Screenshot 2018-03-14 at 1.46.03 PM.png"
-                                                                                    style="width: 85%;"></a>
+                <a onclick="location.href = '#Embark';" class="mySlidesMovies"><img
+                        src="Screenshot 2018-03-14 at 1.46.03 PM.png"
+                        style="width: 85%;"></a>
                 <a onclick="location.href = '#AUDC';" class="mySlidesMovies"><img src="IMG_0714.PNG"
                                                                                   style="width: 85%;"></a>
                 <button class="w3-button w3-black w3-display-left" onclick="plusDivsMovies(-1)">&#10094;</button>
                 <button class="w3-button w3-black w3-display-right" onclick="plusDivsMovies(1)">&#10095;</button>
             </div>
         </div>
-        <div class="ui segment" id="3">
+        <div class="ui segment" id="3" style="background-color: #111111; color: #e0d3d3;">
             <h2>Vote!</h2>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF93u5TUpQES5KMzVcQfigQBvn5n_xQnQPxZYfULUPzcOsQw/viewform?embedded=true"
                     width="90%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...
             </iframe>
+        </div>
+        <div id="4">
+            <h2>About</h2>
+            <h3>Resources</h3>
+            <div class="ui cards">
+                <div class="ui centered card">
+                    <div class="content">
+                        <div style="font-size: 20px; padding-bottom: 5px;">Github</div>
+                        <div class="meta">
+                            <span class="date">Web Developing & Repository Service</span>
+                        </div>
+                        <div class="description">"GitHub is a development platform inspired by the way you work. From
+                            open
+                            source to business, you can host and review code, manage projects, and build software
+                            alongside
+                            millions of other developers." -Github
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <div>
+                            <div class="ui right labeled button" role="button" tabindex="0">
+                                <button class="ui icon button" role="button">
+                                    <a href="https://github.com" target="_blank">
+                                        <i aria-hidden="true" class="globe icon"></i>Website
+                                    </a>
+                                </button>
+                                <a class="ui left pointing basic label" href="https://github.com"
+                                   target="_blank">github.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div style="font-size: 20px; padding-bottom: 5px;">Semantic UI: React</div>
+                        <div class="meta">
+                            <span class="date">Web Developing & CSS API</span>
+                        </div>
+                        <div class="description">"User Interface is the language of the web" -Semantic UI
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <div>
+                            <div class="ui right labeled button" role="button" tabindex="0">
+                                <button class="ui icon button" role="button">
+                                    <a href="https://react.semantic-ui.com" target="_blank">
+                                        <i aria-hidden="true" class="globe icon"></i>Website
+                                    </a>
+                                </button>
+                                <a class="ui left pointing basic label" href="https://react.semantic-ui.com"
+                                   target="_blank">react.semantic-ui.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div style="font-size: 20px; padding-bottom: 5px;">Adobe Fireworks: CS6</div>
+                        <div class="meta">
+                            <span class="date">CSS Integration</span>
+                        </div>
+                        <div class="description">"Fireworks provides web designers with a lightweight, effective means
+                            of
+                            creating graphics for their web pages without getting deep into code or lost amid multiple
+                            color
+                            palettes." -Adobe
+                        </div>
+                    </div>
+                    <div class="extra content">
+                        <div>
+                            <div class="ui right labeled button" role="button" tabindex="0">
+                                <button class="ui icon button" role="button">
+                                    <a href="https://www.adobe.com/products/fireworks.html" target="_blank">
+                                        <i aria-hidden="true" class="globe icon"></i>Website
+                                    </a>
+                                </button>
+                                <a class="ui left pointing basic label"
+                                   href="https://www.adobe.com/products/fireworks.html"
+                                   target="_blank">www.adobe.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="main">
 
@@ -119,9 +207,12 @@
                     </div>
                     <br>
                     <h3>Additional Reources</h3>
-                    <a href="https://www.facebook.com/backtoyouthhs/" target="_blank"><i aria-hidden="true" class="large facebook icon"></i></a>
-                    <a href="https://www.instagram.com/backtoyouthhs/" target="_blank"><i aria-hidden="true" class="large instagram icon"></i></a>
-                    <a href="https://twitter.com/backtoyouthhs/" target="_blank"><i aria-hidden="true" class="large twitter icon"></i></a>
+                    <a href="https://www.facebook.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
+                                                                                         class="large facebook icon"></i></a>
+                    <a href="https://www.instagram.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
+                                                                                          class="large instagram icon"></i></a>
+                    <a href="https://twitter.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
+                                                                                    class="large twitter icon"></i></a>
                     <a href="https://backtoyouthhs.wixsite.com/backtoyou/" target="_blank">Website</a>
                 </div>
             </div>
@@ -350,87 +441,11 @@
                 </div>
             </div>
         </div>
-        <div class="footer" id="4">
+        <div class="footer" id="5">
             <p>
                 Copyright THHS Film Productions.<br>THHS Film Productions contains no infringements of the movies
-                displayed on its website.
+                displayed on its website.<br>By Amar Maksumić
             </p>
-            <h3>Resources</h3>
-            <div class="ui cards">
-            <div class="ui centered dark card">
-                <div class="content">
-                    <div class="header">Github</div>
-                    <div class="meta">
-                        <span class="date">Web Developing & Repository Service</span>
-                    </div>
-                    <div class="description">"GitHub is a development platform inspired by the way you work. From open
-                        source to business, you can host and review code, manage projects, and build software alongside
-                        millions of other developers." -Github
-                    </div>
-                </div>
-                <div class="extra content">
-                    <div>
-                        <div class="ui right labeled button" role="button" tabindex="0">
-                            <button class="ui icon button" role="button">
-                                <a href="https://github.com" target="_blank">
-                                    <i aria-hidden="true" class="globe icon"></i>Website
-                                </a>
-                            </button>
-                            <a class="ui left pointing basic label" href="https://github.com"
-                               target="_blank">github.com</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="ui centered dark card">
-                <div class="content">
-                    <div class="header">Semantic UI: React</div>
-                    <div class="meta">
-                        <span class="date">Web Developing & CSS API</span>
-                    </div>
-                    <div class="description">"User Interface is the language of the web" -Semantic UI
-                    </div>
-                </div>
-                <div class="extra content">
-                    <div>
-                        <div class="ui right labeled button" role="button" tabindex="0">
-                            <button class="ui icon button" role="button">
-                                <a href="https://react.semantic-ui.com" target="_blank">
-                                    <i aria-hidden="true" class="globe icon"></i>Website
-                                </a>
-                            </button>
-                            <a class="ui left pointing basic label" href="https://react.semantic-ui.com"
-                               target="_blank">react.semantic-ui.com</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="ui centered dark card">
-                <div class="content">
-                    <div class="header">Adobe Fireworks: CS6</div>
-                    <div class="meta">
-                        <span class="date">CSS Integration</span>
-                    </div>
-                    <div class="description">"Fireworks provides web designers with a lightweight, effective means of
-                        creating graphics for their web pages without getting deep into code or lost amid multiple color
-                        palettes." -Adobe
-                    </div>
-                </div>
-                <div class="extra content">
-                    <div>
-                        <div class="ui right labeled button" role="button" tabindex="0">
-                            <button class="ui icon button" role="button">
-                                <a href="https://www.adobe.com/products/fireworks.html" target="_blank">
-                                    <i aria-hidden="true" class="globe icon"></i>Website
-                                </a>
-                            </button>
-                            <a class="ui left pointing basic label" href="https://www.adobe.com/products/fireworks.html"
-                               target="_blank">www.adobe.com</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
     </center>
     <div class="ui active blurring dimmer" id="loader-mobile-series">
