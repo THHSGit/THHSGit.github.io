@@ -1,1 +1,533 @@
+<!DOCTYPE html>
+<html>
+<title>Child Abuse</title>
+<head>
+    <link rel="icon" type="image/png" href="P10.jpg">
+	<title>Child Abuse</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
+	<script src = "https://docs.handsontable.com/pro/1.16.0/bower_components/handsontable-pro/dist/handsontable.min.js"></script>
+	<script src = "https://docs.handsontable.com/pro/1.16.0/bower_components/handsontable-pro/dist/handsontable.min.js"></script>
+</head>
+
+<style>
+body {
+    background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%);
+}
+
+
+
+
+
+
+	</style>
+
+
+</head>
+
+<body>
+<div data-role="page" data-title="Child Abuse" id="main_page" data-dialog="false" style = "background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%);">
+
+	<center><div class="titleText"
+				 data-position="fixed"
+				 style="background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%);">
+
+		<font size="10"><p style="color: #000000;">Child Abuse</p></font>
+
+	</div></center>
+	<div data-role="navbar" data-iconpos="left">
+
+		<ul>
+			<li><button onclick="location.href = '#research_page';" data-icon="edit">About</button></li>
+			<li><button onclick="location.href = '#main_page';" class="ui-btn-active" data-icon="home">Home</button></li>
+			<li><button onclick="location.href = '#quiz_page';" data-icon="bars">Quiz</button></li>
+            <li><button onclick="location.href = '#bib_page';" data-icon="info">Bibliography</button></li>
+		</ul>
+	</div><!-- /navbar -->
+
+<center>
+<font size="6">
+    <p style="margin: 30px;">We strive to aid in the process of preventing the cycle of child abuse by raising money and donating to child abuse prevention organizations.</p></font></center>
+
+	<center><img class="ui large bordered image" src="P8.jpg"></center></div>
+<div data-role="page" data-title="Child Abuse" id="quiz_page" data-dialog="false" style = "background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%); color: #ffffff">
+
+
+	<center><div class="titleText"
+				 data-position="fixed"
+				 style="background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%);">
+		<h1 style="color: #000000;">Quiz</h1>
+
+	</div></center>
+
+	<div data-role="navbar" data-iconpos="left">
+		<ul>
+			<li><button onclick="location.href = '#research_page';"  data-icon="edit">About</button></li>
+			<li><button onclick="location.href = '#main_page';"  data-icon="home">Home</button></li>
+			<li><button onclick="location.href = '#quiz_page';" class="ui-btn-active" data-icon="bars">Quiz</button></li>
+            <li><button onclick="location.href = '#bib_page';" data-icon="info">Bibliography</button></li>
+
+		</ul>
+
+	</div>
+    </fieldset>
+    <font size="6"><p id="wrong0" style="color: red">Wrong</p></font>
+       <fieldset data-role="controlgroup">
+    <legend>What is the cycle of abuse?</legend>
+        <input type="radio" name="radio-choice-0" id="radio-choice-111111111111" value="false" >
+        <label for="radio-choice-111111111111">Offenders abusing after being in prison</label>
+        <input type="radio" name="radio-choice-0" id="radio-choice-222222222222" value="Correct">
+        <label for="radio-choice-222222222222">Adults that were abused as children grow up to abuse as adults</label>
+        <input type="radio" name="radio-choice-0" id="radio-choice-333333333333" value="false" >
+        <label for="radio-choice-333333333333">The abuse of children by parents</label>
+        <input type="radio" name="radio-choice-0" id="radio-choice-444444444444" value="false">
+        <label for="radio-choice-444444444444">The medical conditions of abused children</label>
+
+    </fieldset>
+ <font size="6"><p id="wrong1" style="color: red">Wrong</p></font>
+    <fieldset data-role="controlgroup">
+    <legend>What specific childhood experiences cause the abuse of children by adults?</legend>
+        <input type="radio" name="radio-choice-1" id="radio-choice-11" value="false" >
+        <label for="radio-choice-11">Poor education</label>
+        <input type="radio" name="radio-choice-1" id="radio-choice-22" value="Correct">
+        <label for="radio-choice-22">Being bullied/Bullying</label>
+        <input type="radio" name="radio-choice-1" id="radio-choice-33" value="false">
+        <label for="radio-choice-33">Smaller friendship circles</label>
+        <input type="radio" name="radio-choice-1" id="radio-choice-44" value="false">
+        <label for="radio-choice-44">Lack of extracurriculars</label>
+</fieldset>
+    <font size="6"><p id="wrong2" style="color: red">Wrong</p></font>
+    <fieldset data-role="controlgroup">
+    <legend>What do children that were abused develop?</legend>
+        <input type="radio" name="radio-choice-2" id="radio-choice-111" value="false" >
+        <label for="radio-choice-111">Weird obsessions</label>
+        <input type="radio" name="radio-choice-2" id="radio-choice-222" value="false">
+        <label for="radio-choice-222">Normal life theories</label>
+        <input type="radio" name="radio-choice-2" id="radio-choice-333" value="Correct">
+        <label for="radio-choice-333">Distorted life theories</label>
+        <input type="radio" name="radio-choice-2" id="radio-choice-444" value="false">
+        <label for="radio-choice-444">Strong beliefs</label>
+</fieldset>
+
+     <font size="6"><p id="wrong3" style="color: red">Wrong</p></font>
+    <fieldset data-role="controlgroup">
+    <legend>How do adults that were abused as children view other adults?</legend>
+        <input type="radio" name="radio-choice-3" id="radio-choice-1111" value="false" >
+        <label for="radio-choice-1111">Adults can be trusted</label>
+        <input type="radio" name="radio-choice-3" id="radio-choice-2222" value="false">
+        <label for="radio-choice-2222">Adults are accepting</label>
+        <input type="radio" name="radio-choice-3" id="radio-choice-3333" value="Correct">
+        <label for="radio-choice-3333">Adults cannot be trusted</label>
+        <input type="radio" name="radio-choice-3" id="radio-choice-4444" value="false">
+        <label for="radio-choice-4444">Adults and children are equally accepting</label>
+</fieldset>
+
+    <font size="6"><p id="wrong4" style="color: red">Wrong</p></font>
+    <fieldset data-role="controlgroup">
+    <legend>True or false: Abusing children is never a power problem. .</legend>
+        <input type="radio" name="radio-choice-4" id="radio-choice-11111" value="false" >
+        <label for="radio-choice-11111">True</label>
+        <input type="radio" name="radio-choice-4" id="radio-choice-22222" value="Correct">
+        <label for="radio-choice-22222">False</label>
+
+</fieldset>
+
+    <font size="6"><p id="wrong5" style="color: red">Wrong</p></font>
+    <fieldset data-role="controlgroup">
+    <legend>True or false: Exposure to neglect is not one of the causes of child abuse.</legend>
+        <input type="radio" name="radio-choice-5" id="radio-choice-111111" value="Correct" >
+        <label for="radio-choice-111111">True</label>
+        <input type="radio" name="radio-choice-5" id="radio-choice-222222" value="false">
+        <label for="radio-choice-222222">False</label>
+
+</fieldset>
+
+    <font size="6"><p id="wrong6" style="color: red">Wrong</p></font>
+    <fieldset data-role="controlgroup">
+    <legend>What type of attachment style are rapists most likely to have?</legend>
+        <input type="radio" name="radio-choice-6" id="radio-choice-11111111" value="false" >
+        <label for="radio-choice-11111111">Preoccupied attachment</label>
+        <input type="radio" name="radio-choice-6" id="radio-choice-22222222" value="false">
+        <label for="radio-choice-22222222">Fearful attachment</label>
+        <input type="radio" name="radio-choice-6" id="radio-choice-33333333" value="false" >
+        <label for="radio-choice-33333333">Secure attachment</label>
+        <input type="radio" name="radio-choice-6" id="radio-choice-44444444" value="Correct">
+        <label for="radio-choice-44444444">Dismissing attachment</label>
+
+    </fieldset>
+
+    <font size="6"><p id="wrong7" style="color: red">Wrong</p></font>
+    <fieldset data-role="controlgroup">
+    <legend>How does culture play a role in the cycle of abuse?</legend>
+        <input type="radio" name="radio-choice-7" id="radio-choice-111111111" value="false" >
+        <label for="radio-choice-111111111">Culture has no role in the cycle of abuse</label>
+        <input type="radio" name="radio-choice-7" id="radio-choice-222222222" value="false">
+        <label for="radio-choice-222222222">There are no cultures that encourage child abuse</label>
+        <input type="radio" name="radio-choice-7" id="radio-choice-333333333" value="false" >
+        <label for="radio-choice-333333333">All cultures encourage child abuse</label>
+        <input type="radio" name="radio-choice-7" id="radio-choice-444444444" value="Correct">
+        <label for="radio-choice-444444444">Child abuse is normalized in certain cultures</label>
+
+    </fieldset>
+    <font size="6"><p id="wrong8" style="color: red">Wrong</p></font>
+       <fieldset data-role="controlgroup">
+    <legend>What type of attachment style are child molesters most likely to have?</legend>
+        <input type="radio" name="radio-choice-8" id="radio-choice-1111111111" value="Correct" >
+        <label for="radio-choice-1111111111">Fearful attachment</label>
+        <input type="radio" name="radio-choice-8" id="radio-choice-2222222222" value="false">
+        <label for="radio-choice-2222222222">Predetermined attachment</label>
+        <input type="radio" name="radio-choice-8" id="radio-choice-3333333333" value="false" >
+        <label for="radio-choice-3333333333">Secure attachment</label>
+        <input type="radio" name="radio-choice-8" id="radio-choice-4444444444" value="false">
+        <label for="radio-choice-4444444444">Dismissing attachment</label>
+
+    </fieldset>
+
+    <font size="6"><p id="wrong9" style="color: red">Wrong</p></font>
+       <fieldset data-role="controlgroup">
+    <legend>What are implicit theories?</legend>
+        <input type="radio" name="radio-choice-9" id="radio-choice-11111111111" value="false" >
+        <label for="radio-choice-11111111111">Scientific theories based on emotions</label>
+        <input type="radio" name="radio-choice-9" id="radio-choice-22222222222" value="Correct">
+        <label for="radio-choice-22222222222">The biases a person uses to form impressions about other people</label>
+        <input type="radio" name="radio-choice-9" id="radio-choice-33333333333" value="false" >
+        <label for="radio-choice-33333333333">Theories about the effects of child abuse</label>
+        <input type="radio" name="radio-choice-9" id="radio-choice-44444444444" value="false">
+        <label for="radio-choice-44444444444">Theories about why people abuse children</label>
+       </fieldset>
+
+
+
+
+
+     <button id="returnScore" class="return-score" >View Results</button>
+<script>
+$(function(){
+	$("#wrong0").hide();
+
+    $("#wrong1").hide();
+    $("#wrong2").hide();
+    $("#wrong3").hide();
+    $("#wrong4").hide();
+    $("#wrong5").hide();
+    $("#wrong6").hide();
+    $("#wrong7").hide();
+    $("#wrong8").hide();
+    $("#wrong9").hide();
+
+
+
+
+
+$(".return-score").click(function(){
+        var x = $('input[name = "radio-choice-0"]:checked').val();
+     var x1 = $('input[name = "radio-choice-1"]:checked').val();
+     var x2 = $('input[name = "radio-choice-2"]:checked').val();
+     var x3 = $('input[name = "radio-choice-3"]:checked').val();
+     var x4 = $('input[name = "radio-choice-4"]:checked').val();
+     var x5 = $('input[name = "radio-choice-5"]:checked').val();
+     var x6 = $('input[name = "radio-choice-6"]:checked').val();
+     var x7 = $('input[name = "radio-choice-7"]:checked').val();
+     var x8 = $('input[name = "radio-choice-8"]:checked').val();
+     var x9 = $('input[name = "radio-choice-9"]:checked').val();
+
+
+
+
+    if (x == "false"){
+        $("#wrong0").show();
+
+    }
+    if (x == "Correct"){
+        $("#wrong0").hide();
+    }
+    if (x1 == "false"){
+        $("#wrong1").show();
+
+    }
+
+    if (x1 == "Correct"){
+    $("#wrong1").hide();
+
+    }
+    if (x2 == "false"){
+        $("#wrong2").show();
+
+    }
+
+    if (x2 == "Correct"){
+    $("#wrong2").hide();
+
+    }
+     if (x3 == "false"){
+        $("#wrong3").show();
+
+    }
+
+    if (x3 == "Correct"){
+    $("#wrong3").hide();
+
+    }
+    if (x4 == "false"){
+        $("#wrong4").show();
+
+    }
+
+    if (x4 == "Correct"){
+    $("#wrong4").hide();
+
+    }
+    if (x5 == "false"){
+        $("#wrong5").show();
+
+    }
+
+    if (x5 == "Correct"){
+    $("#wrong5").hide();
+
+    }
+    if (x6 == "false"){
+        $("#wrong6").show();
+
+    }
+
+    if (x6 == "Correct"){
+    $("#wrong8").hide();
+
+    }
+    if (x7 == "false"){
+        $("#wrong7").show();
+
+    }
+
+    if (x7 == "Correct"){
+    $("#wrong7").hide();
+
+    }
+     if (x8 == "false"){
+        $("#wrong8").show();
+
+    }
+
+    if (x8 == "Correct"){
+    $("#wrong8").hide();
+
+    }
+    if (x9 == "false"){
+        $("#wrong9").show();
+
+    }
+
+    if (x9 == "Correct"){
+    $("#wrong9").hide();
+
+    }
+
+    alert("Your score is "+getScore()+"/10");
+
+});
+
+
+var answers = ["Correct","Correct", "Correct", "Correct", "Correct", "Correct", "Correct", "Correct", "Correct", "Correct"],
+    tot = answers.length;
+
+function getCheckedValue(radioName){
+    var radios = document.getElementsByName( radioName); // Get radio group by-name
+    for(var y=0; y<radios.length; y++)
+      if(radios[y].checked) return radios[y].value; // return the checked value
+}
+
+
+function getScore(){
+  var score = 0;
+  for (var i=0; i<tot; i++)
+    if(getCheckedValue("radio-choice-"+i)===answers[i]) score += 1; // increment only
+  return score;
+
+}
+});
+
+</script>
+</div>
+    <div data-role="page" data-title="Child Abuse" id="research_page" data-dialog="false" style = "background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%);">
+
+	<center><div class="titleText"
+				 data-position="fixed"
+				 style="background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%);">
+
+		<font size="10"><p style="color: #000000;">About</p></font>
+
+	</div></center>
+	<div data-role="navbar" data-iconpos="left">
+
+		<ul>
+			<li><button onclick="location.href = '#research_page';" class="ui-btn-active" data-icon="edit">About</button></li>
+			<li><button onclick="location.href = '#main_page';"  data-icon="home">Home</button></li>
+			<li><button onclick="location.href = '#quiz_page';" data-icon="bars">Quiz</button></li>
+            <li><button onclick="location.href = '#bib_page';" data-icon="info">Bibliography</button></li>
+
+		</ul>
+	</div><!-- /navbar -->
+<center>
+      <div class="ui huge image">
+  <img src="P9.png">
+</div>
+</center>
+<font size="6">
+ <div class="ui horizontal divider">Our Reaserch</div></font>
+
+        <font size="5">
+        <p style="margin: 70px; float:right;"> Most child sex offenders have been sexually abused as children themselves: “... sexual abuse during childhood is a specific developmental risk factor that can result in the emergence of a sexual arousal to children.” (Sullivan and Sheehan 76). In a study conducted by Sullivan and Sheehan, key life experiences that the offenders described that they believed contributed to their behavior were: exposure to neglect, physical violence, and experiences of emotional abuse. One of the causes of child abuse is emotional loneliness due to being bullied as a child or bullying as a child. Bullying as a child leads to power problems, as well. As a result of facing abuse as a child, adults develop distorted perceptions of life or life theories such as ““Ward and Keenan (1999)...‘children can give adults more acceptance and love than other adults’; ‘You can’t trust adults’” (Burn and Brown 230).One of the other links to abusing children in the future to the perpetrator’s childhood is criminal activity as a child. Criminal behavior when young causes antisocial behaviors (sexual abuse of a child) (Ward 2003).
+	There are four attachment styles. Attachment styles are the way and type of relationships people form with other people. The four attachment styles are: Secure attachment: (“positive adaptive view of self and others”). preoccupied attachment (“negative view of self, positive view on others”), dismissing attachment (“positive view on self, negative view on others”), and fearful attachment: (“negative view on self and others”). When children face problems with adults or, “when attachment figures are not supportive or available, children develop negative internal working models that contribute to insecurity in attachment relationships” (Wood and Riggs et al. 377). Rapists are most likely to have dismissing attachment, whereas child molesters are most likely to have fearful or preoccupied attachment.
+Specifically, ”..childhood history of poor family relationships...(Boswell, 1995; Falshaw & Browne, 1997). According to Beech and Mitchell (2005), these adverse childhood experiences make it likely that most sex offenders have developed maladaptive attachment styles, which prompt them to seek intimacy in inappropriate ways, such as confusing sex with intimacy or having sex with children.” (Wood and Riggs 378). Therefore, supportive and non-abusive parent figures are crucial in creating secure adult attachment styles and reducing sexual attraction to children. Moreover, theory of mind (“...reflective function children develop that enable them to make attributions about the mental states of self and others (Fonagy, Gergely, Jurist, & Target, 2002; Fonagy, Redfern, & Charman, 1997)”) capacity is larger in secure individuals. The lack of theory of mind capacity in insecure individuals and “insecure attachment relationships” is a factor in the “maladaptive implicit theories” that sex offenders develop about themselves, others, and the world, during childhood. These theories create cognitive distortions about sex. An implicit theory is defined as the the biases a person uses to form impressions about other people based on limited information. The other people would be the children that the abusers abuse. Implicit theories justify the actions of the abusers in their own minds. Cognitive distortions are the ways that people’s brains convince them that something that is not true is true. They are used to rationalize, minimize or deny behaviors of abusing a child (Abel et al., 1989; Lanning, 2010; Murphy, 1990; Ward, 2000).
+	The cycle of child abuse also relates to social and cultural factors: “Paradoxically, Punjabi parents also believe that in later childhood their children may well need to be physically punished by their teachers if they fail to learn in school.” This belief that punishment is not only okay but necessary and a positive thing roots from cultural norms from the past that have continued onto the present. To add on, the text states,“By contrast, Punjabi parents come from a traditional and well established culture in rural India which emphasizes ‘respect’ towards parents (and to adults generally).” (Frude 72). Abuse is common in some cultures from generation to generation, and it persists. When the abused child grows up, they find it perfectly fine to abuse their own children because that is the cultural norm.
+The main target or the demand for our work are children that have suffered from maltreatment, in hopes to stop the cycle of abuse. We hope to raise a generous amount of money and donate the money to organizations or projects for abused children that can help them cope correctly with the psychological issues they have faced.
+
+</p>
+        </font>
+        <font size="6">
+ <div class="ui horizontal divider">How You Can Help</div></font>
+        <font size="6">
+ <div class="ui horizontal divider">Support</div></font>
+
+        <button class="ui button" tabindex="0"><a href="https://preventchildabuseny.org/">
+  Support NYC Prevention of Child Abuse
+
+    </a></button>
+        <button class="ui button"><a href="https://secure.joyfulheartfoundation.org/page/contribute/give-joy?source=menu">
+  Support The Joyful Heart Foundation
+        </a></button>
+        <button class="ui button"><a href="https://www.nyfoundling.org/donate/one-time-donation/">
+  Support The New York Foundling
+        </a></button>
+        <button class="ui button"><a href="https://www.childhelp.org/donate/">
+  Support The Child Help Organization
+        </a></button>
+</div>
+</div>
+<div data-role="page" data-title="Child Abuse" id="bib_page" data-dialog="false" style = "background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%);">
+
+	<center><div class="titleText"
+				 data-position="fixed"
+				 style="background: linear-gradient(to bottom, #4ca1af 0%, #c4e0e5 100%);">
+
+		<font size="10"><p style="color: #000000;">Bibliography</p></font>
+
+	</div></center>
+	<div data-role="navbar" data-iconpos="left">
+
+		<ul>
+			<li><button onclick="location.href = '#research_page';" data-icon="edit">About</button></li>
+			<li><button onclick="location.href = '#main_page';"  data-icon="home">Home</button></li>
+			<li><button onclick="location.href = '#quiz_page';" data-icon="bars">Quiz</button></li>
+            <li><button onclick="location.href = '#bib_page';" class="ui-btn-active" data-icon="info">Bibliography</button></li>
+
+		</ul>
+	</div><!-- /navbar -->
+    <div class="ui horizontal divider">About The Editors</div>
+
+        <div class="ui cards">
+            <div class="ui centered card">
+
+                <div class="content">
+                    <div class="header">Joshua Ashvil</div>
+                    <div class="meta">
+                        <span class="date">Website Developer</span>
+                    </div>
+                    <div class="description">Joshua is an expert programmer who designed and coded the entire website from scratch using languages such as HTML and javascript.
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="calendar icon"></i>Class of '21.
+                    </a>
+                </div>
+            </div>
+            <div class="ui centered card">
+
+                <div class="content">
+                    <div class="header">Anika Rahman</div>
+                    <div class="meta">
+                        <span class="date">Lead Researcher</span>
+                    </div>
+                    <div class="description">Anika is a great researcher who did an incredible job in researching all aspects of child abuse in depth.
+</div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="calendar icon"></i>Class of '21.
+                    </a>
+                </div>
+            </div>
+            <div class="ui centered card">
+
+                <div class="content">
+                    <div class="header">Lizbeth Tamay</div>
+                    <div class="meta">
+                        <span class="date">Marketing Director</span>
+                    </div>
+                    <div class="description">Lizbeth was one of the people who helped make our marketing and business plan for this project and did a very good job in finding ways to spread the word.
+
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="calendar icon"></i>Class of '21.
+                    </a>
+                </div>
+            </div>
+            <div class="ui centered card">
+
+                <div class="content">
+                    <div class="header">Leah Inoyatov</div>
+                    <div class="meta">
+                        <span class="date">Marketing Director</span>
+                    </div>
+                    <div class="description">Kelly did a great job in calling up some big child abuse organizations and finding out what we could do to help.
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="calendar icon"></i>Class of '21.
+                    </a>
+                </div>
+            </div>
+            <div class="ui centered card">
+
+                <div class="content">
+                    <div class="header">Sharon Jiang</div>
+                    <div class="meta">
+                        <span class="date">Marketing Director</span>
+                    </div>
+                    <div class="description">Sharon was another person who helped make our marketing and business plan for this project and did a very good job in finding ways that we could show people all of the aspects of child abuse most effectively.
+</div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="calendar icon"></i>Class of '21.
+                    </a>
+                </div>
+            </div>
+        </div>
+ <div class="ui horizontal divider">Works Cited</div>
+    <font size = "4"><pre style="margin:100px">   Burn, May F., and Brown Sarah. “A review of the cognitive distortions in child sex offenders:
+            An examination of the motivations and mechanisms that underlie the justification for abuse.”
+            Aggression and Violent Behavior, Vol. 11, 2006,  225 – 236.
+        Frude, Neil. Psychological Approaches to Child Abuse. Rowman and Littlefield, 1981.
+        Hoffer, Tia A. and Shelton Joy Lynn E..  Suicide Among Child Sex Offenders. Springer, 2013.
+        Sullivan, Joe, and Sheehan Valerie. “What motivates sexual abusers of children? A qualitative
+            examination of the Spiral of Sexual Abuse.” Aggression and Violent Behavior, Vol. 30, 2016 76–87.
+        Wood, Eric, and Riggs Shelley. “Adult Attachment, Cognitive Distortions, and Views of Self,
+            Others, and the Future Among Child Molesters.” Sexual Abuse: A Journal of Research and Treatment.
+            Vol. 21, No. 3, 2009, 375-390
+
+</pre></font>
+	</div>
+
+</div>
+</body>
+</html>
