@@ -9,7 +9,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="background-color: #111111">
-<div class="ui container" width="100%">
+<div id="container" width="100%">
+    <ul class="topBar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#films">Films</a></li>
+        <li><a href="#vote">Vote</a></li>
+        <li style="float:right"><a href="#about">About</a></li>
+    </ul>
+    <div style="background-color: white;">
+        <div id="home">
+            <div class="spacer"></div>
+            <h1>The Odyssey: Recontextualized</h1>
+            <h2>Mr. Dunbar’s Band 7 and Band 8 Freshman English Classes</h2>
+        </div>
+
+        <div class="ui segment" id="films">
+            <div class="spacer"></div>
+            <h2>All Films</h2>
+            <p>
+                Scroll through the films (using the arrows), and click on the poster to view the synopsis and any
+                additional resources for that film.
+            </p>
+            <div class="w3-content w3-display-container">
+                <a onclick="location.href = '#TheGrades';" class="mySlidesMovies"><img src="thegrades.png"
+                                                                                       style="width: 85%;"></a>
+                <a onclick="location.href = '#BackToYou';" class="mySlidesMovies"><img src="backToYouBand8.JPG"
+                                                                                       style="width: 85%;"></a>
+                <a onclick="location.href = '#JailBreak';" class="mySlidesMovies"><img src="File_001.png"
+                                                                                       style="width: 85%;"></a>
+                <a onclick="location.href = '#TheOneTheOnly';" class="mySlidesMovies"><img src="finalone.jpg"
+                                                                                           style="width: 85%;"></a>
+                <a onclick="location.href = '#TrappedInside';" class="mySlidesMovies"><img src="Movie_Poster.jpg"
+                                                                                           style="width: 85%;"></a>
+                <a onclick="location.href = '#Number10';" class="mySlidesMovies"><img
+                        src="Screenshot 2018-03-14 at 1.41.31 PM.png"
+                        style="width: 85%;"></a>
+                <a onclick="location.href = '#Freedom';" class="mySlidesMovies"><img
+                        src="Screenshot 2018-03-14 at 1.43.50 PM.png"
+                        style="width: 85%;"></a>
+                <!--class split-->
+
+                <a onclick="location.href = '#TheReturn';" class="mySlidesMovies"><img src="MoviePoster.png"
+                                                                                       style="width: 85%;"></a>
+                <a onclick="location.href = '#GoingHome';" class="mySlidesMovies"><img src="2018-02-02-23-46-43.jpg"
+                                                                                       style="width: 85%;"></a>
+                <a onclick="location.href = '#TangledInTime';" class="mySlidesMovies"><img
+                        src="TangledInTimeMoviePoster.jpg"
+                        style="width: 85%;"></a>
+                <a onclick="location.href = '#TheEscape';" class="mySlidesMovies"><img src="Capture.PNG"
+                                                                                       style="width: 85%;"></a>
+                <a onclick="location.href = '#Embark';" class="mySlidesMovies"><img
+                        src="Screenshot 2018-03-14 at 1.46.03 PM.png"
+                        style="width: 85%;"></a>
+                <a onclick="location.href = '#AUDC';" class="mySlidesMovies"><img src="IMG_0714.PNG"
+                                                                                  style="width: 85%;"></a>
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivsMovies(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivsMovies(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+    <div id="vote" style="background-color: #111111; color: #e0d3d3;">
+        <div class="spacer"></div>
+        <h2>Vote!</h2>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF93u5TUpQES5KMzVcQfigQBvn5n_xQnQPxZYfULUPzcOsQw/viewform?embedded=true"
+                width="90%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...
+        </iframe>
+    </div>
+
+    <div class="footer" id="about">
+        <div class="spacer"></div>
+        <h2>About</h2>
+        <p>
+            Copyright THHS Film Productions.<br>THHS Film Productions contains no infringements of the movies
+            displayed on its website.<br>By Amar Maksumić
+        </p>
+    </div>
+</div>
+
+<div class="ui container" id="mobile-container" style="background-color: #03A9F4; color: #111;" width="100%">
     <center>
         <button class="ui button" role="button" id="reretractbutton" onclick="retract();">Show</button>
         <div id="1" style="background-color: #111111; color: #e0d3d3;">
@@ -82,380 +159,298 @@
                     width="90%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...
             </iframe>
         </div>
-        <div class="ui segment" id="4">
+        <div class="footer" id="4">
             <h2>About</h2>
-            <h3>Resources</h3>
-            <div class="ui cards">
-                <div class="ui centered card">
-                    <div class="content">
-                        <div style="font-size: 20px; padding-bottom: 5px;">Github</div>
-                        <div class="meta">
-                            <span class="date">Web Developing & Repository Service</span>
-                        </div>
-                        <div class="description">"GitHub is a development platform inspired by the way you work. From
-                            open
-                            source to business, you can host and review code, manage projects, and build software
-                            alongside
-                            millions of other developers." -Github
-                        </div>
-                    </div>
-                    <div class="extra content">
-                        <div>
-                            <div class="ui right labeled button" role="button" tabindex="0">
-                                <button class="ui icon button" role="button">
-                                    <a href="https://github.com" target="_blank">
-                                        <i aria-hidden="true" class="globe icon"></i>Website
-                                    </a>
-                                </button>
-                                <a class="ui left pointing basic label" href="https://github.com"
-                                   target="_blank">github.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ui centered card">
-                    <div class="content">
-                        <div style="font-size: 20px; padding-bottom: 5px;">Semantic UI: React</div>
-                        <div class="meta">
-                            <span class="date">Web Developing & CSS API</span>
-                        </div>
-                        <div class="description">"User Interface is the language of the web" -Semantic UI
-                        </div>
-                    </div>
-                    <div class="extra content">
-                        <div>
-                            <div class="ui right labeled button" role="button" tabindex="0">
-                                <button class="ui icon button" role="button">
-                                    <a href="https://react.semantic-ui.com" target="_blank">
-                                        <i aria-hidden="true" class="globe icon"></i>Website
-                                    </a>
-                                </button>
-                                <a class="ui left pointing basic label" href="https://react.semantic-ui.com"
-                                   target="_blank">react.semantic-ui.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ui centered card">
-                    <div class="content">
-                        <div style="font-size: 20px; padding-bottom: 5px;">Adobe Fireworks: CS6</div>
-                        <div class="meta">
-                            <span class="date">CSS Integration</span>
-                        </div>
-                        <div class="description">"Fireworks provides web designers with a lightweight, effective means
-                            of
-                            creating graphics for their web pages without getting deep into code or lost amid multiple
-                            color
-                            palettes." -Adobe
-                        </div>
-                    </div>
-                    <div class="extra content">
-                        <div>
-                            <div class="ui right labeled button" role="button" tabindex="0">
-                                <button class="ui icon button" role="button">
-                                    <a href="https://www.adobe.com/products/fireworks.html" target="_blank">
-                                        <i aria-hidden="true" class="globe icon"></i>Website
-                                    </a>
-                                </button>
-                                <a class="ui left pointing basic label"
-                                   href="https://www.adobe.com/products/fireworks.html"
-                                   target="_blank">www.adobe.com</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main">
-
-
-            <div class="modalDialog" id="TheGrades">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">The Grades</p>
-                    <div>
-                        <p width="50%" style="color: #FFFFFF">In a totalitarian society, where perfection is the only
-                            path to survival and respect, Disseus is an excellent, albeit cocky student. Mastering
-                            exams, aceing projects, he is the epitome of success. But one day, he finds that he’s
-                            provoked the wrong person, setting in motion a chain of events that will send him plummeting
-                            into exile, fighting for his life against a force that remains unseen, unheard, but ever
-                            present. Join him on the adventure of a lifetime in THE GRADES.
-                        <p><br>
-                    </div>
-                    <br>
-                    <h3>Additional Reources</h3>
-                    <a href="https://thhsgit.github.io/thegrades" target="_blank">Website</a><br>
-                </div>
-            </div>
-
-
-            <div class="modalDialog" id="BackToYou">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">Back to You</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            Priscilla and Owen, recently married, are living their happily ever after.
-                            Or that’s what they think.
-                            Priscilla has been an aspiring actress for as long as she could remember. It’s not
-                            surprising when her agent excitedly calls her, granting her a chance to star in the newest
-                            Hollywood show. She jumps at the opportunity; however, her actions are too hasteful. A ditzy
-                            mix-up along with an impulsive decision splits two lovebirds miles apart leaving them
-                            scrambling to reconnect, to reunite, and to pull Priscilla out of the spotlight.
-                            Owen passionately vows, “I'll always get Back to You."
-                        <p><br>
-                    </div>
-                    <br>
-                    <h3>Additional Reources</h3>
-                    <a href="https://www.facebook.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
-                                                                                         class="large facebook icon"></i></a>
-                    <a href="https://www.instagram.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
-                                                                                          class="large instagram icon"></i></a>
-                    <a href="https://twitter.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
-                                                                                    class="large twitter icon"></i></a>
-                    <a href="https://backtoyouthhs.wixsite.com/backtoyou/" target="_blank">Website</a>
-                </div>
-            </div>
-
-
-            <div class="modalDialog" id="JailBreak">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">JailBreak</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            Home. That was the only thing on multi-billionaire toy company CEO, Oliver Ullyses’s
-                            (Stephen Amell) mind after being falsely accused and arrested for the murder of his
-                            long-time rival. After three long years in jail he breaks out and embarks on a perilous
-                            journey to return to the life he once had. But he can’t do it alone. With the help of family
-                            friend Eugene Maes (Dane DeHaan) and his former advisor Sully Choure (Tim DeKay) with aid of
-                            a mysterious new ally he makes the trip home. However, someone is after him, someone
-                            powerful, someone who wants him dead, someone who will stop at nothing.
-                        <p><br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="modalDialog" id="TheOneTheOnly">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">The One The Only</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            After refusing to break up with his poor girlfriend Selena (Selena Cheung), valiant Justin
-                            Lartes (Foram Patel) is forced to enter the 56th Selection Games- a suicide competition
-                            where 8 brave men compete to win Princess Clara’s (Keith Yeung) hand in marriage. Despite
-                            the appealing advantages that come with marrying the princess, Justin is not competing for
-                            her, but for his freedom. He must go through a series of grueling obstacles including
-                            fighting to the death to prove his etiquette, intelligence, leadership and strength. Losing
-                            the games is not an option for Justin as it results in execution. All he wishes for is the
-                            chance to run away with Selena. Will Justin survive the gruesome games and return to his
-                            true love?
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="modalDialog" id="TrappedInside">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">Trapped Inside</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            Odyssea, played by Xandria Crosland, races against time to get to her basketball game. As
-                            she leaves Townsend Harris High School, she has to go through numerous nerve-racking
-                            obstacles posed by her teachers, Mr. Dundun and Mr. Bardun. Escaping from her nightmare
-                            every flight of stairs she goes, trouble awaits for her. There is a never ending cycle of
-                            fear and unpredictable events ahead of her. Each step that Odyssea takes towards the doors
-                            of freedom, the feeling of trepidation rushes into her. Why are her teachers after this
-                            girl? Will Odyssea ever get to her game on time and escape from hell? Odyssea thought school
-                            was tough. Now she has learned that leaving it is tougher.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="modalDialog" id="Number10">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">Number 10</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            HE’S NOT THE FIRST, BUT HE MAY BE THE
-
-                            LAST.
-
-                            It’s the year 2075, where 0.17% of modernized America’s
-                            population is clinically disabled. Enter a dystopian world
-                            where being handicapped is frowned upon and
-
-                            experimentation for the “greater good” is standard. Zoom in
-                            a little further into the life of a crippled, and loved, husband
-                            and father. #10 wakes up to find himself captured and in the
-                            process of being tested on. Follow his journey as he tries to
-                            get back home. Throw in an evil scientist, a secretly kind
-                            accomplice, and a son who is ready to dig up some dirt, and
-
-                            things get a lot more complicated.
-                            He's not the first, but he may be the last.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modalDialog" id="Freedom">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">Freedom</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            In 1847, in the Deep South, Olivia is a domestic slave on the Eden Plantation. She is abused
-                            by her owner and lives a life of turmoil. However, she uses her cleverness, tenacity, and
-                            her friendship with the master’s daughter to aid her on her pursuit of freedom.
-                            She embarks on a dangerous journey to save her family from being sold to another plantation,
-                            so that she may fulfill her dream to reunite with them after many years of separation. Will
-                            she be able to write her own story or will the chains of slavery weigh her down?
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modalDialog" id="AUDC">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">AU-DC</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            In a world where technology dominates, advances such as the microchips are becoming widely
-                            vital to human evolution. In the year of 2078, human beings have obtained the ability to
-                            store memories within a single microchip. People ultimately possess traits of robots and are
-                            functioning with fellow cyborgs. The Diamántias stand above them all, with absolute control
-                            over each individuals personalized microchip.
-                        </p>
-                        <p>
-                            Among the crowd, Au-D.C being an ordinary highschool girl, naturally didn’t stick out. That
-                            is till her microchip suddenly shuts down, causing her to lose all knowledge of herself and
-                            leaving her practically bleak. Au-DC embarks the journey of self discovery
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modalDialog" id="Embark">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">Embark</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            16-year old Ozias Homer’s life goes from a perfect illusion to a harsh
-                            reality after he discovers that his supposedly dead mother is alive, a
-                            truth that was kept hidden for 10 years by the kidnapper whom he
-                            called “dad”. Upon learning about this hidden truth, Ozias embarks on a
-                            cross-country journey full of danger and tribulations to find the home
-                            and reality he truly belongs in as well as to uncover the truth about his
-                            past.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modalDialog" id="TheReturn">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">The Return</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            Imagine a country where immigrants are mistreated. Innocence is ignored, and the government
-                            is blinded. As a hispanic, 29 year old Jackson Odynes (Diego Boneta) has to deal with this
-                            daily in America. Growing up was never easy and nothing seems to be becoming easier for
-                            Jackson. He is unlawfully kicked out of the country and cast away from his family with
-                            everything being stripped away from them. Everything stands against Jackson while in Mexico;
-                            on the run, he has to go through many gruesome trials that tests his physical, mental, and
-                            emotional capability in order to return to his family. The government is against him... are
-                            you?
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modalDialog" id="GoingHome">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">Going Home</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            Home (noun) - a place where one lives permanently, especially as a member of a family or
-                            household. Home is a place that brings comfort and peace to one's mind. Except for 14
-                            year-old
-                            Mason. Home to him, for as long as he could remember, is a place of dread and hopelessness.
-                            For over ten years, Mason is confined to his “father's” basement where his only hope is to
-                            go
-                            outside. Yet, when Mason discovers the truth behind his past, he escapes and goes on an epic
-                            journey filled with friendship, fear, and pain. All to return home to be with his real
-                            family... that
-                            is if he makes it!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modalDialog" id="TheEscape">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">The Escape</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            Life flashes before your eyes when you’re about to die. But for Captain Oh Ji Yeong of the
-                            South Korean army, life flashes every second of the day. He never planned on getting stuck
-                            in a North Korean prison camp during the North-South Korean War of 2040, but a failed rescue
-                            mission begins his grueling confinement in the unforgiving labor camps. As bullets pierce
-                            the bodies of soldiers crawling across the battlefield, Oh Ji Yeong grows weary of the
-                            torture, desperately longing to return to his beloved wife and child back at home. However,
-                            North Korea isn’t going to make liberation easy for him; little does the war captain know
-                            about the multitude of obstacles that lurk in every shadow of his path. The question
-                            remains: will he ever be able to see the light of a new day?
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="modalDialog" id="TangledInTime">
-                <div>
-                    <a class="close" href="#close" title="Close">&times;</a>
-                    <p class="titleText">Tangled in Time</p>
-                    <div>
-                        <p width="100%" style="color: #FFFFFF">
-                            It’s 1981 and Alec is way ahead of his time. In fact, he has his whole life set out right in
-                            front of him: he’s attending the country’s most prestigious university, he’s found a girl
-                            that he truly thinks is the one, and he has a supportive family that believes in his crazy
-                            lifelong dream of achieving time travel. However, as if things couldn’t have gotten any
-                            better, his dream isn’t so crazy anymore when it becomes his reality. Alec has perfected
-                            time travel.
-                        </p>
-                        <p>
-                            Unfortunately, all good things must come to an end. When Alec’s jealous “best friend”,
-                            Jafar, intentionally tampers with Alec’s time machine, Alec’s life goes awry. Sucked into
-                            present-day New York, with his family worried sick about Alec’s well-being and Michelle, his
-                            love interest, constantly being hounded by other men, Alec will have to fight many
-                            action-packed battles. How will he untangle the knots of time?
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer" id="5">
             <p>
                 Copyright THHS Film Productions.<br>THHS Film Productions contains no infringements of the movies
                 displayed on its website.<br>By Amar Maksumić
             </p>
         </div>
-    </center>
-    <div class="ui active blurring dimmer" id="loader-mobile-series">
-        <div class="ui text loader">THHSGit presents</br>"Made for Mobile Series"</br>
+</div>
+
+<div class="main">
+
+
+    <div class="modalDialog" id="TheGrades">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">The Grades</p>
+            <div>
+                <p width="50%" style="color: #FFFFFF">In a totalitarian society, where perfection is the only
+                    path to survival and respect, Disseus is an excellent, albeit cocky student. Mastering
+                    exams, aceing projects, he is the epitome of success. But one day, he finds that he’s
+                    provoked the wrong person, setting in motion a chain of events that will send him plummeting
+                    into exile, fighting for his life against a force that remains unseen, unheard, but ever
+                    present. Join him on the adventure of a lifetime in THE GRADES.
+                <p><br>
+            </div>
+            <br>
+            <h3>Additional Reources</h3>
+            <a href="https://thhsgit.github.io/thegrades" target="_blank">Website</a><br>
         </div>
     </div>
-    <div class="ui active blurring dimmer" id="loader" style="display: none;">
-        <div class="ui text loader">Loading Interactive Website & Resources</br>Created using Adobe Fireworks & Semantic
-            UI<br>Repositories stored on Github
+
+
+    <div class="modalDialog" id="BackToYou">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">Back to You</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    Priscilla and Owen, recently married, are living their happily ever after.
+                    Or that’s what they think.
+                    Priscilla has been an aspiring actress for as long as she could remember. It’s not
+                    surprising when her agent excitedly calls her, granting her a chance to star in the newest
+                    Hollywood show. She jumps at the opportunity; however, her actions are too hasteful. A ditzy
+                    mix-up along with an impulsive decision splits two lovebirds miles apart leaving them
+                    scrambling to reconnect, to reunite, and to pull Priscilla out of the spotlight.
+                    Owen passionately vows, “I'll always get Back to You."
+                <p><br>
+            </div>
+            <br>
+            <h3>Additional Reources</h3>
+            <a href="https://www.facebook.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
+                                                                                 class="large facebook icon"></i></a>
+            <a href="https://www.instagram.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
+                                                                                  class="large instagram icon"></i></a>
+            <a href="https://twitter.com/backtoyouthhs/" target="_blank"><i aria-hidden="true"
+                                                                            class="large twitter icon"></i></a>
+            <a href="https://backtoyouthhs.wixsite.com/backtoyou/" target="_blank">Website</a>
         </div>
+    </div>
+
+
+    <div class="modalDialog" id="JailBreak">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">JailBreak</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    Home. That was the only thing on multi-billionaire toy company CEO, Oliver Ullyses’s
+                    (Stephen Amell) mind after being falsely accused and arrested for the murder of his
+                    long-time rival. After three long years in jail he breaks out and embarks on a perilous
+                    journey to return to the life he once had. But he can’t do it alone. With the help of family
+                    friend Eugene Maes (Dane DeHaan) and his former advisor Sully Choure (Tim DeKay) with aid of
+                    a mysterious new ally he makes the trip home. However, someone is after him, someone
+                    powerful, someone who wants him dead, someone who will stop at nothing.
+                <p><br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modalDialog" id="TheOneTheOnly">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">The One The Only</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    After refusing to break up with his poor girlfriend Selena (Selena Cheung), valiant Justin
+                    Lartes (Foram Patel) is forced to enter the 56th Selection Games- a suicide competition
+                    where 8 brave men compete to win Princess Clara’s (Keith Yeung) hand in marriage. Despite
+                    the appealing advantages that come with marrying the princess, Justin is not competing for
+                    her, but for his freedom. He must go through a series of grueling obstacles including
+                    fighting to the death to prove his etiquette, intelligence, leadership and strength. Losing
+                    the games is not an option for Justin as it results in execution. All he wishes for is the
+                    chance to run away with Selena. Will Justin survive the gruesome games and return to his
+                    true love?
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modalDialog" id="TrappedInside">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">Trapped Inside</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    Odyssea, played by Xandria Crosland, races against time to get to her basketball game. As
+                    she leaves Townsend Harris High School, she has to go through numerous nerve-racking
+                    obstacles posed by her teachers, Mr. Dundun and Mr. Bardun. Escaping from her nightmare
+                    every flight of stairs she goes, trouble awaits for her. There is a never ending cycle of
+                    fear and unpredictable events ahead of her. Each step that Odyssea takes towards the doors
+                    of freedom, the feeling of trepidation rushes into her. Why are her teachers after this
+                    girl? Will Odyssea ever get to her game on time and escape from hell? Odyssea thought school
+                    was tough. Now she has learned that leaving it is tougher.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modalDialog" id="Number10">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">Number 10</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    HE’S NOT THE FIRST, BUT HE MAY BE THE
+
+                    LAST.
+
+                    It’s the year 2075, where 0.17% of modernized America’s
+                    population is clinically disabled. Enter a dystopian world
+                    where being handicapped is frowned upon and
+
+                    experimentation for the “greater good” is standard. Zoom in
+                    a little further into the life of a crippled, and loved, husband
+                    and father. #10 wakes up to find himself captured and in the
+                    process of being tested on. Follow his journey as he tries to
+                    get back home. Throw in an evil scientist, a secretly kind
+                    accomplice, and a son who is ready to dig up some dirt, and
+
+                    things get a lot more complicated.
+                    He's not the first, but he may be the last.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modalDialog" id="Freedom">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">Freedom</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    In 1847, in the Deep South, Olivia is a domestic slave on the Eden Plantation. She is abused
+                    by her owner and lives a life of turmoil. However, she uses her cleverness, tenacity, and
+                    her friendship with the master’s daughter to aid her on her pursuit of freedom.
+                    She embarks on a dangerous journey to save her family from being sold to another plantation,
+                    so that she may fulfill her dream to reunite with them after many years of separation. Will
+                    she be able to write her own story or will the chains of slavery weigh her down?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modalDialog" id="AUDC">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">AU-DC</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    In a world where technology dominates, advances such as the microchips are becoming widely
+                    vital to human evolution. In the year of 2078, human beings have obtained the ability to
+                    store memories within a single microchip. People ultimately possess traits of robots and are
+                    functioning with fellow cyborgs. The Diamántias stand above them all, with absolute control
+                    over each individuals personalized microchip.
+                </p>
+                <p>
+                    Among the crowd, Au-D.C being an ordinary highschool girl, naturally didn’t stick out. That
+                    is till her microchip suddenly shuts down, causing her to lose all knowledge of herself and
+                    leaving her practically bleak. Au-DC embarks the journey of self discovery
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modalDialog" id="Embark">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">Embark</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    16-year old Ozias Homer’s life goes from a perfect illusion to a harsh
+                    reality after he discovers that his supposedly dead mother is alive, a
+                    truth that was kept hidden for 10 years by the kidnapper whom he
+                    called “dad”. Upon learning about this hidden truth, Ozias embarks on a
+                    cross-country journey full of danger and tribulations to find the home
+                    and reality he truly belongs in as well as to uncover the truth about his
+                    past.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modalDialog" id="TheReturn">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">The Return</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    Imagine a country where immigrants are mistreated. Innocence is ignored, and the government
+                    is blinded. As a hispanic, 29 year old Jackson Odynes (Diego Boneta) has to deal with this
+                    daily in America. Growing up was never easy and nothing seems to be becoming easier for
+                    Jackson. He is unlawfully kicked out of the country and cast away from his family with
+                    everything being stripped away from them. Everything stands against Jackson while in Mexico;
+                    on the run, he has to go through many gruesome trials that tests his physical, mental, and
+                    emotional capability in order to return to his family. The government is against him... are
+                    you?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modalDialog" id="GoingHome">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">Going Home</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    Home (noun) - a place where one lives permanently, especially as a member of a family or
+                    household. Home is a place that brings comfort and peace to one's mind. Except for 14
+                    year-old
+                    Mason. Home to him, for as long as he could remember, is a place of dread and hopelessness.
+                    For over ten years, Mason is confined to his “father's” basement where his only hope is to
+                    go
+                    outside. Yet, when Mason discovers the truth behind his past, he escapes and goes on an epic
+                    journey filled with friendship, fear, and pain. All to return home to be with his real
+                    family... that
+                    is if he makes it!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modalDialog" id="TheEscape">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">The Escape</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    Life flashes before your eyes when you’re about to die. But for Captain Oh Ji Yeong of the
+                    South Korean army, life flashes every second of the day. He never planned on getting stuck
+                    in a North Korean prison camp during the North-South Korean War of 2040, but a failed rescue
+                    mission begins his grueling confinement in the unforgiving labor camps. As bullets pierce
+                    the bodies of soldiers crawling across the battlefield, Oh Ji Yeong grows weary of the
+                    torture, desperately longing to return to his beloved wife and child back at home. However,
+                    North Korea isn’t going to make liberation easy for him; little does the war captain know
+                    about the multitude of obstacles that lurk in every shadow of his path. The question
+                    remains: will he ever be able to see the light of a new day?
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="modalDialog" id="TangledInTime">
+        <div>
+            <a class="close" href="#close" title="Close">&times;</a>
+            <p class="titleText">Tangled in Time</p>
+            <div>
+                <p width="100%" style="color: #FFFFFF">
+                    It’s 1981 and Alec is way ahead of his time. In fact, he has his whole life set out right in
+                    front of him: he’s attending the country’s most prestigious university, he’s found a girl
+                    that he truly thinks is the one, and he has a supportive family that believes in his crazy
+                    lifelong dream of achieving time travel. However, as if things couldn’t have gotten any
+                    better, his dream isn’t so crazy anymore when it becomes his reality. Alec has perfected
+                    time travel.
+                </p>
+                <p>
+                    Unfortunately, all good things must come to an end. When Alec’s jealous “best friend”,
+                    Jafar, intentionally tampers with Alec’s time machine, Alec’s life goes awry. Sucked into
+                    present-day New York, with his family worried sick about Alec’s well-being and Michelle, his
+                    love interest, constantly being hounded by other men, Alec will have to fight many
+                    action-packed battles. How will he untangle the knots of time?
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="ui active blurring dimmer" id="loader-mobile-series">
+    <div class="ui text loader">THHSGit presents</br>"Made for Mobile Series"</br>
+    </div>
+</div>
+<div class="ui active blurring dimmer" id="loader" style="display: none;">
+    <div class="ui text loader">Loading Interactive Website & Resources</br>Created using Adobe Fireworks & Semantic
+        UI<br>Repositories stored on Github
     </div>
 </div>
 </body>
