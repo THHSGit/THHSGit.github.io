@@ -40,7 +40,7 @@ function plusDivsMovies(n) {
 
 function showDivsMovies(n) {
     var i;
-    var x = document.getElementsByClassName("mySlidesMovies");
+    var x = 13;
     if (n > x.length) {
         slideIndexMovies = 1
     }
