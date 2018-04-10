@@ -40,7 +40,7 @@ function plusDivsMovies(n) {
 
 function showDivsMovies(n) {
     var i;
-    var x = 13;
+    var x = document.getElementsByClassName("mySlidesMovies");
     if (n > x.length) {
         slideIndexMovies = 1
     }
@@ -51,6 +51,29 @@ function showDivsMovies(n) {
         x[i].style.display = "none";
     }
     x[slideIndexMovies - 1].style.display = "block";
+}
+
+var slideIndexMoviesd = 1;
+
+showDivsMoviesd(slideIndexMoviesd);
+
+function plusDivsMoviesd(n) {
+    showDivsMoviesd(slideIndexMoviesd += n);
+}
+
+function showDivsMoviesd(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlidesMoviesd");
+    if (n > x.length) {
+        slideIndexMoviesd = 1
+    }
+    if (n < 1) {
+        slideIndexMoviesd = x.length
+    }
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndexMoviesd - 1].style.display = "block";
 }
 
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
