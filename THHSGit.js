@@ -18,12 +18,12 @@ function removeLoader() {
 
 function retract() {
     if (retract_status === 1) {
-        document.getElementById("menu").style.display = "none";
+        document.getElementById("mobile-menu").style.display = "none";
         document.getElementById("reretractbutton").style.display = "block";
         retract_status = 0;
     } else if (retract_status === 0) {
         document.getElementById("reretractbutton").style.display = "none";
-        document.getElementById("menu").style.display = "block";
+        document.getElementById("mobile-menu").style.display = "block";
         retract_status = 1;
     }
 }
@@ -51,4 +51,9 @@ function showDivsMovies(n) {
         x[i].style.display = "none";
     }
     x[slideIndexMovies - 1].style.display = "block";
+}
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    document.getElementById("mobile-container").style.display = "block";
+    document.getElementById("container").style.display = "none";
 }
