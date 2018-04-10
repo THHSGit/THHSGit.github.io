@@ -1,5 +1,6 @@
 var retract_status = 1;
 
+
 function run() {
     setTimeout(removeLoaderMobile, 1500);
     setTimeout(removeLoader, 3000);
