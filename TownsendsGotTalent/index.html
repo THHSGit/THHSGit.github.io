@@ -1,11 +1,9 @@
 <html>
 <!--
     Home
-    Gallery
-    Info
+    Performers
     Performances
     Social Media
-    Performers
     About
     Retract
 -->
@@ -23,33 +21,41 @@
 <!--DESKTOP BODY-->
 <div class="ui" width="100%" id="container">
     <ul class="topBar">
-        <li><a href="#home"><img src="images/"
+        <li><a href="#home">Null<img src="images/"
                                  height="25px"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+        <li><a href="#home"></a>Home</li>
         <li>
             <div class="dropdown">
-                <a onclick="dropdownSM()" class="dropbtn"></a>
+                <a onclick="dropdownSM()" class="dropbtn">Performers</a>
                 <div id="dropdownSM" class="dropdown-content">
+                    <a href="">Ryan D</a>
+                    <a href="">Amar M</a>
+                    <a href="">Ayanna F</a>
+                    <a href="">Jahdon J</a>
+                    <a href="">Joshua A</a>
                 </div>
             </div>
         </li>
+        <li>
+            <div class="dropdown">
+                <a onclick="dropdownSM()" class="dropbtn">Performances</a>
+                <div id="dropdownSM" class="dropdown-content">
+                    <a href="">Ryan D</a>
+                    <a href="">Amar M</a>
+                    <a href="">Ayanna F</a>
+                    <a href="">Jahdon J</a>
+                    <a href="">Joshua A</a>
+                </div>
+            </div>
+        </li>
+        <li><a href="#socialmedia"></a>Social Media</li>
         <li style="float:right" onclick="closeModal()"><a href="#about">About</a></li>
     </ul>
 
     <div id="home">
     </div>
 
-    <div id="info">
-    </div>
-
-    <div id="">
-    </div>
-
-    <div id="">
+    <div id="socialmedia">
     </div>
 
     <div id="about">
@@ -65,21 +71,15 @@
             <i aria-hidden="true" class="home icon"></i>
         </a>
         <a class="item" href="#2">
-            <i aria-hidden="true" class="book icon"></i>
+            <i aria-hidden="true" class="group icon"></i>
         </a>
         <a class="item" href="#3">
-            <i aria-hidden="true" class="picture icon"></i>
+            <i aria-hidden="true" class="book icon"></i>
         </a>
         <a class="item" href="#4">
             <i aria-hidden="true" class="instagram icon"></i>
         </a>
         <a class="item" href="#5">
-            <i aria-hidden="true" class="ticket icon"></i>
-        </a>
-        <a class="item" href="#6">
-            <i aria-hidden="true" class="group icon"></i>
-        </a>
-        <a class="item" href="#7">
             <i aria-hidden="true" class="info icon"></i>
         </a>
         <a class="item" onclick="retract();">
