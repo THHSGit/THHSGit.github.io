@@ -28,8 +28,11 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
     document.getElementById("container").style.display = "none";
 }
 
-function dropdownSM() {
-    document.getElementById("dropdownSM").classList.toggle("show");
+function dropdownPM() {
+    document.getElementById("dropdownPM").classList.toggle("show");
+}
+function dropdownPC() {
+    document.getElementById("dropdownPC").classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
