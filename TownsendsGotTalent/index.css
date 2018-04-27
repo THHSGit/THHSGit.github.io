@@ -45,6 +45,8 @@ li a {
 }
 li:hover {
     background-color: #333;
+}
+li a:hover {
     color: #f24438;
 }
 .spacer {
