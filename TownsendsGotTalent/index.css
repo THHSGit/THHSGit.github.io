@@ -77,9 +77,9 @@ li a:hover {
 #mobile-menu {
     position: fixed;
     z-index: 3;
-    width: 30px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.7);
+    width: 50px;
+    opacity: 0.7;
+    background-color: #FFD700;
 }
 #reretractbutton {
     position: fixed;
