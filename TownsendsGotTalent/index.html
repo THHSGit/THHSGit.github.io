@@ -6,6 +6,20 @@
     Social Media
     About
     Retract
+
+    <li>
+            <div class="dropdown">
+                <a onclick="dropdownPM()" class="dropbtn">Performances</a>
+                <div id="dropdownPM" class="dropdown-content">
+                    <a href="#p1" onclick="closeModal()">Mr. Dunbar</a>
+                    <a href="#p2" onclick="closeModal()">Arianna R</a>
+                    <a href="#p3" onclick="closeModal()">The Perfect Four</a>
+                    <a href="#p4" onclick="closeModal()">Ayanna F</a>
+                    <a href="#p5" onclick="closeModal()">Jahdon J</a>
+                    <a href="#p6" onclick="closeModal()">Joshua A</a>
+                </div>
+            </div>
+        </li>
 -->
 <head>
     <title>Townsends Got Talent</title>
@@ -21,23 +35,12 @@
 <!--DESKTOP BODY-->
 <div class="ui" width="100%" id="container">
     <ul class="topBar">
-        <li><a href="#home" style="padding: 0px 0px; padding-left: 16px;"><img src="images/TownsendsGotTalentPic.png"
+        <li><a href="#home" style="padding: 0px 0px; padding-left: 16px;" onclick="closeModal()"><img src="images/TownsendsGotTalentPic.png"
                                  height="48px"></a></li>
-        <li><a href="#home">Home</a></li>
-        <li>
-            <div class="dropdown">
-                <a onclick="dropdownPM()" class="dropbtn">Performers & Performances</a>
-                <div id="dropdownPM" class="dropdown-content">
-                    <a href="#p1">Mr. Dunbar</a>
-                    <a href="#p2">Arianna R</a>
-                    <a href="#p3">The Perfect Four</a>
-                    <a href="#p4">Ayanna F</a>
-                    <a href="#p5">Jahdon J</a>
-                    <a href="#p6">Joshua A</a>
-                </div>
-            </div>
-        </li>
-        <li><a href="#socialmedia">Social Media</a></li>
+        <li><a href="#home" onclick="closeModal()">Home</a></li>
+        <li><a onclick="openPerformances()">Performances</a></li>
+        <li><a onclick="openPerformers()">Performers</a></li>
+        <li><a href="#socialmedia" onclick="closeModal()">Social Media</a></li>
         <li style="float:right" onclick="closeModal()"><a href="#about">About</a></li>
     </ul>
 
@@ -51,43 +54,210 @@
         <div class="spacer"></div>
         <h2>Social Media</h2>
     </div>
-    
-    <div id="p1">
-        <div class="spacer"></div>
-        <h2>Mr. Dunbar</h2>
+
+    <div id="performances" class="modal">
+        <div class="modal-content">
+            <h2>Performances</h2>
+            <div id="p1">
+                <div class="spacer"></div>
+                <h2>Mr. Dunbar</h2>
+            </div>
+
+            <div id="p2">
+                <div class="spacer"></div>
+                <h2>Arianna R</h2>
+            </div>
+
+            <div id="p3">
+                <div class="spacer"></div>
+                <h2>The Perfect Four</h2>
+                <p>
+                    <i>The Perfect Four</i> were a group that dedicated their time towards performing in <i>Harrisfest</i>, the school-wide talent show. They met up every saturday, sunday, and off days during robotics to prepare their performance, but due to complications they never made it onto the stage. However, now they come back together to perform their cover of "Perfect" by Ed Sheeran, a famous English songwriter and guitarist.
+                </p>
+                <p>
+                    Guitarists: Amar M (fingerstyle) & Andy H (chords)<br>
+                    Ukuleleists: Neeharika K (chords) & Savannah S (chords)<br>
+                    Singers: Neeharika K, Savannah S, & Andy H
+                </p>
+            </div>
+
+            <div id="p4">
+                <div class="spacer"></div>
+                <h2>Ayanna F</h2>
+            </div>
+
+            <div id="p5">
+                <div class="spacer"></div>
+                <h2>Jahdon J</h2>
+            </div>
+
+            <div id="p6">
+                <div class="spacer"></div>
+                <h2>Joshua A</h2>
+            </div>
+        </div>
     </div>
-    
-    <div id="p2">
-        <div class="spacer"></div>
-        <h2>Arianna R</h2>
-    </div>
-    
-    <div id="p3">
-        <div class="spacer"></div>
-        <h2>The Perfect Four</h2>
-        <p>
-            <i>The Perfect Four</i> were a group that deticated their time towards performing in <i>Harrisfest</i>, the school-wide talent show. They met up every saturday, sunday, and off days during robotics to prepare their performance, but due to complications they never made it onto the stage. However, now they come back together to perform their cover of "Perfect" by Ed Sheeran, a famous English songwriter and guitarist.
-        </p>
-        <p>
-            Guitarists: Amar M (fingerstyle) & Andy H (chords)<br>
-            Ukuleleists: Neeharika K (chords) & Savannah S (chords)<br>
-            Singers: Neeharika K, Savannah S, & Andy H
-        </p>
-    </div>
-    
-    <div id="p4">
-        <div class="spacer"></div>
-        <h2>Ayanna F</h2>
-    </div>
-    
-    <div id="p5">
-        <div class="spacer"></div>
-        <h2>Jahdon J</h2>
-    </div>
-    
-    <div id="p6">
-        <div class="spacer"></div>
-        <h2>Joshua A</h2>
+
+    <div id="performers" class="modal">
+        <div class="modal-content">
+            <h2>Performers</h2>
+            <div class="ui cards">
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Mr. Dunbar</div>
+                        <div class="meta">
+                            <span class="date">Clarinetist</span>
+                        </div>
+                        <div class="description">Mr. Dunbar is an English, Humanities, and Writing Process teacher at Townsend Harris High School. His students pride him in being an amazing teacher that makes these otherwise boring subjects seem fun. </div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="apple icon"></i>Teacher
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">The Perfect Four</div>
+                        <div class="meta">
+                            <span class="date">Acoustic & Voice Band</span>
+                        </div>
+                        <div class="description"><i>The Perfect Four</i> were a group that deticated their time towards performing in <i>Harrisfest</i>, the school-wide talent show. They met up every saturday, sunday, and off days during robotics to prepare their performance, but due to complications they never made it onto the stage. However, now they come back together to perform their cover of "Perfect" by Ed Sheeran, a famous English songwriter and guitarist.</div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="podcast icon"></i>School Harrisfest Band
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Ayanna F</div>
+                        <div class="meta">
+                            <span class="date">Singer</span>
+                        </div>
+                        <div class="description"></div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '20
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Andy H</div>
+                        <div class="meta">
+                            <span class="date">Tab Guitarist & Singer</span>
+                        </div>
+                        <div class="description"></div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '20
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Neeharika K</div>
+                        <div class="meta">
+                            <span class="date">Ukuleleist & Singer</span>
+                        </div>
+                        <div class="description"></div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '20
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Savannah S</div>
+                        <div class="meta">
+                            <span class="date">Ukuleleist & Singer</span>
+                        </div>
+                        <div class="description"></div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '20
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Joshua A</div>
+                        <div class="meta">
+                            <span class="date">Pro Rubik's Cube Solver</span>
+                        </div>
+                        <div class="description">Joshua is a programmer, filmatographer, and </div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Jahdon J</div>
+                        <div class="meta">
+                            <span class="date">Basketball Player</span>
+                        </div>
+                        <div class="description"></div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Krista K</div>
+                        <div class="meta">
+                            <span class="date">Percussionist</span>
+                        </div>
+                        <div class="description">Krista is a freshman who has a passion for music. She started playing piano when she turned 6 and eventually picked up the guitar at 9 and drums at 10. Joining her school's marching band, Krista developed a love for the drums and joined a local drum corps in her area. She's been playing for about 5 years ever since then and doesn't plan on giving up this talent. </div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Amar M</div>
+                        <div class="meta">
+                            <span class="date">FingerStyle Guitarist</span>
+                        </div>
+                        <div class="description">Amar is a programmer, CAD Designer, and guitarist. He enjoys pursuing interesting hobbies that help to develop his many interests. He is on the school robotics team, FRC Team 2601 - Steel Hawks, and takes pride in the work that he accomplishes there with his friends. Amar has played the guitar since 3rd grade with a black Carlo Robelli, and switching to a cherry sunburst Epiphone HummingBird in 5th grade.</div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
+                        </a>
+                    </div>
+                </div>
+                <div class="ui centered card">
+                    <div class="content">
+                        <div class="header">Arianna R</div>
+                        <div class="meta">
+                            <span class="date">Dancer</span>
+                        </div>
+                        <div class="description"></div>
+                    </div>
+                    <div class="extra content">
+                        <a>
+                            <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="footer" id="about">
@@ -97,7 +267,7 @@
 
 <!--MOBILE BODY-->
 <div class="ui container" width="100%" id="mobile-container">
-    <div class="spacer"></div>
+    <div style="height: 20px;"></div>
     <button class="ui button" role="button" id="reretractbutton" onclick="retract();">Show</button>
     <div class="ui secondary vertical pointing menu" id="mobile-menu">
         <a class="item" href="#1">
@@ -120,18 +290,20 @@
         </a>
     </div>
     <div id="1">
-        <img src="images/TownsendsGotTalentPic.png" width="30%">
+        <img src="images/TownsendsGotTalentPic.png" width="100%">
+        <div style="height: 20px;"></div>
+        <p>
+            Throughout Townsend Harris High School there are many young minds that excel in humanities, mathematics, languages, and countless other subjects. However, one department that is over looked is the arts department where the talent of many students lay. The students here at Townsend Harris High School pursue many interesting hobbies that have slowly evolved into a talent that only few have. From instrumental talents to solving a rubik's cube, here are some of the many talents that the community at Townsend Harris High School carry around with themselves every day.
+        </p>
     </div>
 
-    <div id="2">
-        <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div id="2"style="background-color: #111111; color: #FFFFFF;">
         <h2>Performances</h2>
         <h3>Mr. Dunbar</h3>
+        <iframe src="https://drive.google.com/file/d/1ApETb4KHhkYcp_UGEUQHXi7pQjn3Nj8g/preview" width="100%" allowfullscreen></iframe>
         <h3>Arianna R</h3>
         <h3>The Perfect Four</h3>
-            <p>
-                <i>The Perfect Four</i> were a group that deticated their time towards performing in <i>Harrisfest</i>, the school-wide talent show. They met up every saturday, sunday, and off days during robotics to prepare their performance, but due to complications they never made it onto the stage. However, now they come back together to perform their cover of "Perfect" by Ed Sheeran, a famous English songwriter and guitarist.
-            </p>
             <p>
                 Guitarists: Amar M (fingerstyle) & Andy H (chords)<br>
                 Ukuleleists: Neeharika K (chords) & Savannah S (chords)<br>
@@ -142,9 +314,9 @@
         <h3>Jahdon J</h3>
         <h3>Joshua A</h3>
     </div>
-    
+
+    <div class="spacer"></div>
     <div id="3">
-        <div class="spacer"></div>
         <h2>Performers</h2>
         <div class="ui cards">
             <div class="ui centered card">
@@ -153,7 +325,7 @@
                     <div class="meta">
                         <span class="date">Clarinetist</span>
                     </div>
-                    <div class="description"></div>
+                    <div class="description">Mr. Dunbar is an English, Humanities, and Writing Process teacher at Townsend Harris High School. His students pride him in being an amazing teacher that makes these otherwise boring subjects seem fun. </div>
                 </div>
                 <div class="extra content">
                     <a>
@@ -161,46 +333,27 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="ui cards">
             <div class="ui centered card">
                 <div class="content">
-                    <div class="header">Arianna R</div>
+                    <div class="header">The Perfect Four</div>
                     <div class="meta">
-                        <span class="date">Dancer</span>
+                        <span class="date">Acoustic & Voice Band</span>
+                    </div>
+                    <div class="description"><i>The Perfect Four</i> were a group that deticated their time towards performing in <i>Harrisfest</i>, the school-wide talent show. They met up every saturday, sunday, and off days during robotics to prepare their performance, but due to complications they never made it onto the stage. However, now they come back together to perform their cover of "Perfect" by Ed Sheeran, a famous English songwriter and guitarist.</div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="podcast icon"></i>School Harrisfest Band
+                    </a>
+                </div>
+            </div>
+            <div class="ui centered card">
+                <div class="content">
+                    <div class="header">Ayanna F</div>
+                    <div class="meta">
+                        <span class="date">Singer</span>
                     </div>
                     <div class="description"></div>
-                </div>
-                <div class="extra content">
-                    <a>
-                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="ui cards">
-            <div class="ui centered card">
-                <div class="content">
-                    <div class="header">Amar M</div>
-                    <div class="meta">
-                        <span class="date">FingerStlye Guitarist</span>
-                    </div>
-                    <div class="description">Amar is a programmer, CAD Designer, and guitarist. He enjoys persuing interesting hobbies that help to develop his many interests. He plays the guitar with an Epiphone Hummingbird.
-                    </div>
-                </div>
-                <div class="extra content">
-                    <a>
-                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
-                    </a>
-                </div>
-            </div>
-            <div class="ui centered card">
-                <div class="content">
-                    <div class="header">Savannah S</div>
-                    <div class="meta">
-                        <span class="date">Ukelelist & Singer</span>
-                    </div>
-                    <div class="description">Null</div>
                 </div>
                 <div class="extra content">
                     <a>
@@ -226,7 +379,7 @@
                 <div class="content">
                     <div class="header">Neeharika K</div>
                     <div class="meta">
-                        <span class="date">Ukelelist & Singer</span>
+                        <span class="date">Ukuleleist & Singer</span>
                     </div>
                     <div class="description"></div>
                 </div>
@@ -236,24 +389,34 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="ui cards">
             <div class="ui centered card">
                 <div class="content">
-                    <div class="header">Ayanna F</div>
+                    <div class="header">Savannah S</div>
                     <div class="meta">
-                        <span class="date">Singer</span>
+                        <span class="date">Ukuleleist & Singer</span>
                     </div>
                     <div class="description"></div>
                 </div>
                 <div class="extra content">
                     <a>
-                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '20.
+                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '20
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="ui cards">
+            <div class="ui centered card">
+                <div class="content">
+                    <div class="header">Joshua A</div>
+                    <div class="meta">
+                        <span class="date">Pro Rubik's Cube Solver</span>
+                    </div>
+                    <div class="description">Joshua is a programmer, filmatographer, and </div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
+                    </a>
+                </div>
+            </div>
             <div class="ui centered card">
                 <div class="content">
                     <div class="header">Jahdon J</div>
@@ -264,23 +427,49 @@
                 </div>
                 <div class="extra content">
                     <a>
-                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21.
+                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="ui cards">
             <div class="ui centered card">
                 <div class="content">
-                    <div class="header">Joshua A</div>
+                    <div class="header">Krista K</div>
                     <div class="meta">
-                        <span class="date">Pro Rubix Cube Solver</span>
+                        <span class="date">Percussionist</span>
+                    </div>
+                    <div class="description">Krista is a freshman who has a passion for music. She started playing piano when she turned 6 and eventually picked up the guitar at 9 and drums at 10. Joining her school's marching band, Krista developed a love for the drums and joined a local drum corps in her area. She's been playing for about 5 years ever since then and doesn't plan on giving up this talent. </div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
+                    </a>
+                </div>
+            </div>
+            <div class="ui centered card">
+                <div class="content">
+                    <div class="header">Amar M</div>
+                    <div class="meta">
+                        <span class="date">FingerStyle Guitarist</span>
+                    </div>
+                    <div class="description">Amar is a programmer, CAD Designer, and guitarist. He enjoys pursuing interesting hobbies that help to develop his many interests. He is on the school robotics team, FRC Team 2601 - Steel Hawks, and takes pride in the work that he accomplishes there with his friends. Amar has played the guitar since 3rd grade with a black Carlo Robelli, and switching to a cherry sunburst Epiphone HummingBird in 5th grade.</div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
+                    </a>
+                </div>
+            </div>
+            <div class="ui centered card">
+                <div class="content">
+                    <div class="header">Arianna R</div>
+                    <div class="meta">
+                        <span class="date">Dancer</span>
                     </div>
                     <div class="description"></div>
                 </div>
                 <div class="extra content">
                     <a>
-                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21.
+                        <i aria-hidden="true" class="graduation cap icon"></i>Class of '21
                     </a>
                 </div>
             </div>
