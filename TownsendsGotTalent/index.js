@@ -50,10 +50,17 @@ window.onclick = function(event) {
     }
 }
 
-function openModal() {
-    document.getElementById('myModal').style.display = "block";
+function openPerformers() {
+    document.getElementById('performers').style.display = "block";
+    document.getElementById('performances').style.display = "none";
+}
+
+function openPerformances() {
+    document.getElementById('performances').style.display = "block";
+    document.getElementById('performers').style.display = "none";
 }
 
 function closeModal() {
-    document.getElementById('myModal').style.display = "none";
+    document.getElementById('performers').style.display = "none";
+    document.getElementById('performances').style.display = "none";
 }
