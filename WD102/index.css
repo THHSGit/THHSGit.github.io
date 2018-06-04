@@ -1,12 +1,12 @@
 .TitleTextBad{
-    font-family: 40px;
-    font-style: monospace;
+    font-size: 40px;
+    font-family: monospace;
 }
 .HeaderTextBad{
-    font-family: 30px;
-    font-style: monospace;
+    font-size: 30px;
+    font-family: monospace;
 }
 .TextBad{
-    font-family: 20px;
-    font-style: monospace;
+    font-size: 20px;
+    font-family: monospace;
 }
