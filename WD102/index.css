@@ -1,7 +1,12 @@
-.Intro{
-    font-size: 20px;
-    width: 30%;
-    margin-top: 10px;
-    margin-left: 10px;
+.TitleTextBad{
+    font-size: 40px;
+    font-style: monospace;
 }
-
+.HeaderTextBad{
+    font-size: 30px;
+    font-style: monospace;
+}
+.TextBad{
+    font-size: 20px;
+    font-style: monospace;
+}
