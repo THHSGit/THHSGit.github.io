@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<title>How To Code A Basic Website</title>
+
+
+
+
+
+<head>
+ <link rel="icon" type="image/png" href="f12.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
+
+
+</head>
+
+
+<style>
+
+body {
+    background color: #000000;
+    }
+    .ui.secondary.vertical.pointing.menu {
+    position: fixed;
+    z-index: 3;
+    width: 50px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.ui.active.dimmer {
+    position: fixed;
+}
+#reretractbutton {
+    position: fixed;
+    z-index: 3;
+    display: none;
+}
+ </style>
+
+
+<body>
+
+    <div data-role="page" data-title="How To Code A Basic Website" id="main_page" data-dialog="false" style = "background: white;">
+
+
+    <button class="ui button" role="button" id="reretractbutton" onclick="retract();">Show</button>
+    <div class="ui secondary vertical pointing menu" id="menu">
+        <a class="item" href="#3" id="home_bttn">
+            <i aria-hidden="true" class="home icon"></i>
+        </a>
+        <a class="item" href="#1" id="html_bttn">
+            <i aria-hidden="true" class="computer icon"></i>
+        </a>
+        <a class="item" href="#2" id="html_bttn1">
+           <i aria-hidden="true" class="book icon"></i>
+        </a>
+
+        <a class="item" onclick="retract();">
+            <i aria-hidden="true" class="step backward icon"></i>
+        </a>
+    </div>
+    <script>
+    var retract_status = 1;
+        function retract() {
+            if (retract_status === 1) {
+                document.getElementById("menu").style.display = "none";
+        document.getElementById("reretractbutton").style.display = "block";
+        retract_status = 0;
+    } else if (retract_status === 0) {
+        document.getElementById("reretractbutton").style.display = "none";
+        document.getElementById("menu").style.display = "block";
+        retract_status = 1;
+    }
+}
+
+    </script>
+        <br><br>
+        <center><div class="titleText"
+                     data-position="fixed"
+                     style="background: white;">
+
+            <font size="10"><p style="color: #000000;" id="home">How To Code A Basic Website</p></font></div>
+
+        </center>
+        <center><br>
+        <img class="ui huge image" src="f15.png"></center>
+    
+        ___________________________________________________________________________________________________________________________________________________________________________________________________
+    </center>
+
+
+
+
+        <center><div class="titleText"
+                     data-position="fixed"
+                     style="background: white;">
+            <br> <br>
+            <font size="10"><p style="color: black;" id="html">Basic Concepts of HTML</p></font></div>
+
+
+
+        </center>
+
+    <br><br><br><br>
+    <center>
+<a href="https://github.com/" class="ui huge image">
+  <img src="f1.png">
+</a>
+        <br><br><br>
+        <img class="ui huge image" src="f3.png"></center>
+    <br><br><br>
+    <center><img class="ui huge image" src="f5.png">
+
+    </center>
+
+
+
+
+<center>
+    <br><br><br>
+    <img class="ui huge image" src="f6.png">
+    <br><br><br>
+    <img class="ui huge image" src="f8.png">
+
+    <br><br><br>
+    <img class="ui huge image" src="f9.png"></center>
+    ___________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+ <center><div class="titleText"
+                     data-position="fixed"
+                     style="background: white;">
+            <br> <br>
+            <font size="10"><p style="color: black;" id="html1">Why Anybody Can Code</p></font></div>
+
+    <br><br><br>
+    <img class="ui image" src="f10.png">
+ </center>
+    <br><br><br>
+    <a href="https://www.w3schools.com/js/" class="ui image">
+  <img src="f11.png">
+</a>
+    <br><br><br>
+     <a href="https://semantic-ui.com/introduction/getting-started.html" class="ui huge image">
+  <img src="f12.png">
+</a>
+    <br><br><br>
+         <a href="http://demos.jquerymobile.com/1.4.3/" class="ui  image">
+  <img src="f14.png">
+</a>
+        </div>
+<script>$("#html_bttn").click(function(){
+        $.mobile.navigate( "#html" ,  {transition:"slide"});
+    });
+    $("#home_bttn").click(function(){
+        $.mobile.navigate( "#home" ,  {transition:"slide"});
+    });
+     $("#html_bttn1").click(function(){
+        $.mobile.navigate( "#html1" ,  {transition:"slide"});
+    });
+</script>
+</body>
+</html>
+
+
