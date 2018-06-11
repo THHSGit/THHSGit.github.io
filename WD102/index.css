@@ -1,12 +1,91 @@
-.TitleTextBad{
+#badWebsite {
+    display: block;
+}
+#goodWebsite {
+    display: none;
+    text-align: center;
+}
+#goodWebsite p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#goodWebsite img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#goodWebsite iframe {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.TitleTextBad {
     font-size: 40px;
     font-family: monospace;
 }
-.HeaderTextBad{
+.HeaderTextBad {
     font-size: 30px;
     font-family: monospace;
 }
-.TextBad{
+.TextBad {
     font-size: 20px;
     font-family: monospace;
+}
+.topbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 53px;
+    z-index: 2;
+}
+li {
+    float: left;
+    height: 100%;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+li:hover {
+    background-color: #333;
+}
+li a:hover {
+    color: #4183c4;
+}
+.spacer {
+    height: 53px;
+}
+.modalDialog {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    text-align: center;
+    background: rgba(238, 238, 238, 0.9);
+    z-index: 3;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    box-shadow: 10px 10px 5px grey;
+}
+.modalDialog button {
+    width: 100%;
+    background-color: #4183c4;
+    border: none;
+    color: white;
+}
+#modalheader {
+    cursor: move;
+}
+.footer{
+    background-color: #111;
+    color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
