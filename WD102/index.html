@@ -1,41 +1,99 @@
 <DOCTYPE html>
-<html>
-<head>
-  <title>Web Design 102</title>
-  <link rel="icon" type="image/png" href="../fd/images/Color Logo Large.jpg">
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css">
-  <meta charset="UTF-8">
-  <meta name="author" content="Amar Maksumic">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <p class="TitleTextBad">
-    Zeitgeist: Evolution of Society
-  </p>
-  <p class="HeaderTextBad">
-    The Quote:
-  </p>
-  <p class="TextBad">
-    “He was talking about Okonkwo, who had risen so suddenly from great poverty and misfortune to be one of the lords of the clan,” (page 26, <i>Things Fall Apart</i>).
-  </p>
-  <p class="HeaderTextBad">
-    Explanation:
-  </p>
-  <p class="TextBad">
-    If you give people the resources to excel in a certain field not only will it benefit them, but it will also benefit you will use and be guided by what they do for society.
-  </p>
-  <!--LOADERS-->
-  <div class="ui active blurring dimmer" id="loader-mobile-series">
-      <div class="ui text loader">Loading basic HTML</br>
-      </div>
-  </div>
-  <div class="ui active blurring dimmer" id="loader" style="display: none;">
-      <div class="ui text loader">Loading Interactive Website & Resources</br>Created using Adobe Fireworks & Semantic UI<br>Repositories stored on Github
-      </div>
-  </div>
-</body>
-<script src="index.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-</html>
+    <html>
+    <head>
+        <title>Web Design 102</title>
+        <link rel="icon" type="image/png" href="../fd/images/Color Logo Large.jpg">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css">
+        <meta charset="UTF-8">
+        <meta name="author" content="Amar Maksumic">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <div id="badWebsite">
+        <button href="#badquote">The Quote</button>
+        <button href="#badexplanation">Explanation</button>
+        <p class="TitleTextBad">
+            Zeitgeist: Evolution of Society
+        </p>
+        <p class="HeaderTextBad" id="badquote">
+            The Quote:
+        </p>
+        <p class="TextBad">
+            “He was talking about Okonkwo, who had risen so suddenly from great poverty and misfortune to be one of the lords of the clan,” (page 26, <i>Things Fall Apart</i>).
+        </p>
+        <p class="HeaderTextBad" id="badexplanation">
+            Explanation:
+        </p>
+        <p class="TextBad">
+            If you give people the resources to excel in a certain field not only will it benefit them, but it will also benefit you will use and be guided by what they do for society.
+        </p>
+    </div>
+    <div id="goodWebsite">
+        <ul class="topBar">
+            <li><a href="#home" onclick="closeModal()">Home</a></li>
+            <li><a href="#goodquote">The Quote</a></li>
+            <li><a href="#goodexplanation">Explanation</a></li>
+            <li><a href="#goodskill">Mastery Skill</a></li>
+            <li style="float:right"><a href="#about">About</a></li>
+        </ul>
+        <div id="home">
+            <div class="spacer"></div>
+            <p style="font-size: 60px">Zeitgeist: Evolution of Society</p>
+        </div>
+        <img src="images/okonkwo.png" style="float: right;" width="25%">
+        <div id="goodquote">
+            <div class="spacer"></div>
+            <p style="font-size: 35px;">The Quote</p>
+            <p style="font-size: 20px;" width="100%">“He was talking about Okonkwo, who had risen so suddenly from great poverty and misfortune to be one of the lords of the clan,” (page 26, Things Fall Apart).</p>
+        </div>
+        <div id="goodexplanation">
+            <div class="spacer"></div>
+            <p style="font-size: 35px;">Explanation of the Quote & Connection to Today's Zeitgeist</p>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/rvskMHn0sqQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="float: left;"></iframe>
+            <p style="font-size: 20px;">
+                In the following quote from Things Fall Apart, Okonkwo’s success from poverty and misfortune had come assumingly solely from his own hard work. His own success of becoming one of the lords of his clan is what helped the clan to become stronger. However, it was not only Okonkwo’s hard work which leads him to success, but some factors like the laziness of his father along with the dead end he imagined that the clan would hit which made him strive to become stronger so he could rule the clan. Therefore, Okonkwo’s success was influenced by outside factors which paved a path for him to become ruler of the clan.
+            </p>
+            <p style="font-size: 20px;">
+                This principle of society is also present in today’s age. Many political leaders are guided to their offices by their supporters, with some of these political leaders coming from the socioeconomic status of their supporters, or lower. Many of the leader’s supporters will back that certain leader because it is in their best interest if they would like their ideas to make it into the political office, similar to what happened with Okonkwo. In today’s world this is present in more fields than politics, however, the true reason for such support is more egotistical than it seems. There are many people in the world who are of low socioeconomic status, and are not able to access the wide range of education at their hands because of economic problems like having to pay for college. However, if someone of a higher socioeconomic status is to support some people of lower class, then there will be a larger population of developers, scientists, and inventors to invent and discover new technologies which in return will help the investor economically, or in terms of leisure.
+            </p>
+        </div>
+        <div id="goodskill">
+            <div class="spacer"></div>
+            <p style="font-size: 35px;">Mastery Skill</p>
+            <p style="font-size: 20px;">
+                The skill that I have mastered is Web Design. This is a skill that I have been working on for the past year during the English 1 and 2 courses. The majority of my learning was focused on researching what makes a website appealing while also trying to apply more modern design language to my own website after looking at websites designed by major companies and businesses. The two aspects which dominated the majority of the notes that I took was the layout of the website, and the styling of the website.
+            </p>
+            <p style="font-size: 20px;">
+                First, when it comes to designing the layout of a website it is best to draw a sketch on paper before reaching for the keyboard. This sketch should just encompass the general layout of the website, and doesn’t have to capture smaller details. In this sketch the “content” should flow smoothly throughout the length of the mock-website in a logical structure, meaning that the about section should not come before the main content on the website.  Any white-space should be filled and spacing uniform in between text, the margins, and other components.
+            </p>
+            <p style="font-size: 20px;">
+                Additionally, once this sketch is brought from the paper onto the screen, the next step to commit to would be to add some styling to the website. The color scheme, font, and sizing of the website and its contents are all a part of this styling stage. The color scheme of a website should not interfere with its usability, but make the website more visibly appealing to anyone that stumbles upon it. The color scheme should also convey the theme of the website with it An example of a good color scheme for a website would be a beach house real estate website that has a light blue background, black text, and sand colored accents. The opposite of this would be the same website. but with a bright red background, red text, and a bright color used for accenting. Not only are the colors unrelated to the theme of the website while also making it an eyestrain to look at, but the text would be unreadable as it is the same color as the background.
+            </p>
+            <p style="font-size: 20px;">
+                After choosing the color scheme of the website it is also important to choose a good font. The font used will vary between websites, but should help to aid in providing a professional look. Last but not least, the sizing of content on the website should look like everything is in proportion, and then polishing can be done to everything else.
+            </p>
+        </div>
+        <div class="spacer"></div>
+        <div class="footer" id="about">
+            The above is copyright of THHSGit's web design and editing divisions.
+        </div>
+    </div>
+    <center>
+        <div class="modalDialog" id="modal">
+        </div>
+    </center>
+    <LOADERS
+    <div class="ui active blurring dimmer" id="loader-mobile-series">
+        <div class="ui text loader">Loading basic HTML</br>
+        </div>
+    </div>
+    <div class="ui active blurring dimmer" id="loader" style="display: none;">
+        <div class="ui text loader">Loading Interactive Website & Resources</br>Created using Adobe Fireworks & Semantic UI<br>Repositories stored on Github
+        </div>
+    </div>
+    </body>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    </html>
