@@ -18,15 +18,7 @@
 </style>
 
 <body>
- <div class="ui active blurring dimmer" id="loader-mobile-series">
-    <div class="ui text loader">Loading basic HTML</br>
-    </div>
-</div>
-<div class="ui active blurring dimmer" id="loader" style="display: none;">
-    <div class="ui text loader">Loading Interactive Website & Resources</br>Created using Adobe Fireworks & Semantic
-        UI<br>Repositories stored on Github
-    </div>
-</div>
+ 
 
 <div data-role="page" data-title="Arabian Folklore" id="main_page" data-dialog="false" style = "background: #000000;">
 
@@ -302,6 +294,7 @@
 
 </div>
 
+
 </div>
 
 <script>
@@ -342,16 +335,7 @@
         $.mobile.navigate( "#page_3" ,  {transition:"slidefade"});
     });
 
-function run() {
-    setTimeout(removeLoaderMobile, 1500);
-    setTimeout(removeLoader, 3000);
-}
-function removeLoaderMobile() {
-    document.getElementById("loader-mobile-series").style.display = "none";
-    document.getElementById("loader").style.display = "block";
-}
-function removeLoader() {
-    document.getElementById("loader").style.display = "none";
+
 
 </script>
 </body>
